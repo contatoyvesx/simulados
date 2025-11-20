@@ -1,0 +1,504 @@
+1. Os Códigos da ANBIMA de Regulação e Melhores Práticas se aplicam, exclusivamente, às:
+
+A. instituições associadas e às que aderirem voluntariamente.
+B. administradoras de fundos de investimento.
+C. instituições financeiras reguladas pelo Banco Central.
+D. instituições reguladas pela Comissão de Valores Mobiliários (CVM).
+
+2. É uma atividade que pode ser efetuada por uma corretora de títulos e valores mobiliários:
+
+A. Securitização de recebíveis.
+B. financiamento de capital de giro das empresas.
+C. intermediação de operações de câmbio.
+D. crédito direto ao consumidor.
+
+3. Os Bancos Múltiplos, com carteira de investimento, podem:
+I. Atuar como agentes Underwriters.
+captar recursos por meio de debêntures.
+
+III. Atuar no financiamento de capital de giro e fixo.
+
+Está correto o que se afirma em:
+
+A. I, II, III.
+B. II, apenas.
+C. I, apenas.
+D. I e III, apenas.
+
+4. Segundo a Comissão de Valores Mobiliários (CVM), são considerados investidores profissionais, dentre outros:
+I. As entidades abertas e fechadas de previdência complementar, independentemente do tamanho do seu patrimônio.
+
+II. Os clubes de investimento, desde que tenham a carteira gerida por administrador de carteira de valores mobiliários autorizado pela CVM.
+
+III. as pessoas físicas e jurídicas que atestem, por escrito, sua condição de investidor profissional e possuam investimentos financeiros em valor superior a R$ 1.000.000,00.
+Está correto o que se afirma em
+
+
+A. I, apenas.
+B. I e II, apenas.
+C. I, II e III.
+D. I e III, apenas.
+
+5. No Brasil, compete ao Conselho Monetário Nacional (CMN):
+I. Disciplinar o crédito, em todas as suas modalidades, e as operações creditícias em todas as suas formas, inclusive aceites, avais e prestações de quaisquer garantias por parte das instituições financeiras.
+
+II. Regular a constituição, funcionamento e fiscalização das Instituições Financeiras.
+
+III. efetuar a compra e venda de títulos públicos federais com o objetivo de executar os serviços do meio circulante.
+
+Está correto o que se afirma em
+
+A. I e II, apenas.
+B. I, II e III.
+C. I, apenas.
+D. II e III, apenas.
+
+6. João resolveu diversificar seu portfólio, adicionando-lhe criptoativo e, para decidir em qual investi-lo, optou pela moeda com maior retorno nos últimos 12 meses. Nesse caso, ele está sujeito ao viés da heurística
+
+A. da confirmação.
+B. da representatividade.
+C. da ilusão de controle.
+D. do excesso de confiança.
+
+7. Um proprietário de uma concessionária vendeu três automóveis recém-saídos de fábrica, no valor total de R$ 500.000,00, pagos à vista. Dois dias depois, o comprador pagou a quantia acordada em espécie e o proprietário, com receio de ser assaltado, dirigiu-se a uma agência bancária mais próxima, depositando o dinheiro na conta corrente de sua esposa, por não possuir conta corrente naquele banco. Nesse caso, o:
+
+A. comprador cometeu crime de lavagem de dinheiro, por converter o valor em espécie em bens, mesmo que esse valor utilizado não tenha sido obtido por infração penal antecedente.
+B. funcionário da agência, ao receber o depósito, deveria registrar os dados qualitativos do depositante e comunicar a operação ao Conselho de Controle de Atividades Financeiras (COAF), somente se as notas depositadas fossem de baixo valor e de má conservação, sob pena administrativa e civil por falsa comunicação.
+C. proprietário da concessionária cometeu crime consistente em aceitar o pagamento de alto valor em espécie.
+D. funcionário da agência, ao receber o depósito, deveria registrar os dados qualitativos do depositante e indicar a ocorrência e os dados da operação para comunicação ao Conselho de Controle de Atividades Financeiras (COAF), até o próximo dia útil.
+
+8. Ao não observar os princípios e regras de compliance legal e ética, uma instituição financeira estará incorrendo risco
+
+A. de imagem, apenas.
+B. legal, apenas.
+C. de Barreira da Informação, uma vez que poderão surgir situações de conflito de interesses.
+D. legal e de imagem.
+
+9. E uma atribuição da área de controles internos das instituições financeiras:
+
+A. o desenvolvimento de cenários macroeconômicos que auxiliem o posicionamento da instituição no mercado.
+B. a segregação das atividades de forma que seja evitado o conflito de interesses.
+C. a avaliação dos riscos de crédito de eventuais tomadores de recursos da instituição.
+D. a exclusão de responsabilidades por parte dos profissionais que não sejam diretores estatutários dentro da instituição
+
+10. As pessoas habilitadas a atuar como integrantes do sistema de distribuição e os consultores de valores mobiliários não podem recomendar produtos, realizar operações ou prestar serviços a seus clientes sem que verifiquem sua adequação ao perfil do cliente. Para tanto, devem analisar, de acordo com a resolução CVM n° 30, no mínimo
+I - o período em que o cliente deseja manter o investimento.
+
+II - as preferências declaradas do cliente quanto à assunção de riscos.
+
+III - as finalidades do investimento.
+ 
+Está correto o que se afirma em
+
+A. I, II e III.
+B. II e III, apenas.
+C. I e Il, apenas.
+D. III, apenas.
+
+11. Um investidor institucional solicitou a uma corretora de valores que adquirisse uma quantidade significativa de ações de uma determinada empresa. Um corretor de valores, dessa mesma corretora, ao obter a informação sobre a negociação com o cliente adquiriu ações dessa empresa, para si próprio, antecipando-se à execução da ordem do cliente pela corretora. Nesse caso, a atitude indevida do corretor denomina se
+
+A. insider trading.
+B. insider information.
+C. front trading.
+D. front running.
+
+12. Com a finalidade de prevenir o envolvimento do sistema financeiro em ilícitos, o cadastro dos clientes e as informações sobre as transações realizadas
+
+A. devem ser conservados durante o período mínimo de cinco anos a partir do encerramento da conta ou da conclusão da transação.
+B. devem ser conservados durante o período mínimo de dez anos a partir do encerramento da conta ou da conclusão da transação.
+C. são de facultativos caso a operação seja realizada por pessoa jurídica que exerça atividades de promoção imobiliária ou compra e
+D. devem ser implementados quando a instituição financeira assim julgar conveniente.
+
+13. Luiza foi aconselhada pelo seu gestor de investimento a adquirir ações de uma determinada empresa, pois os analistas atribuíam uma possibilidade de grande retorno no longo prazo. Passados 15 dias da compra, decidiu vendê-las com 2,00% de retorno. Nesse caso, ela exibiu o viés da heurística
+
+A. da aversão à perda.
+B. do excesso de confiança.
+C. da ancoragem.
+D. da disponibilidade.
+
+14. Juliana investiu em uma empresa do setor de mineração com um índice Preço sobre Lucro (P/L) de 1,5. Passados dois anos, essa empresa chegou a ser negociada a três vezes o lucro e, atualmente, a negociação está a apenas P/L de 2,0. Questionada pelo seu gestor, afirmou: "não vou vender a ação por menos de três vezes o lucro". Nesse contexto, Juliana está sob o viés da heurística
+
+A. da disponibilidade.
+B. da aversão à perda.
+C. do excesso de confiança.
+D. da ancoragem.
+
+15. A Circular Bacen 3.978/20 (e suas atualizações), no seu art. 18°, determina que as instituições autorizadas a funcionar pelo Banco Central do Brasil devem adotar procedimentos que permitam qualificar seus clientes por meio da coleta, verificação e validação de informações, compatíveis com o perfil de risco do cliente e com a natureza da relação de negócio.
+Em conformidade com as informações acima, esta correto afirmar que
+ 
+I. a qualificação do cliente deve ser reavaliada de forma permanente, de acordo com a evolução da relação de negócio e do perfil de risco.
+
+Il. os procedimentos de qualificação do cliente pessoa jurídica, devem incluir a análise da cadeia de participação societária até a identificação da pessoa natural caracterizada como seu beneficiário final.
+ 
+Pode-se afirmar que l e Il, respectivamente, estão:
+
+A. incorreta e incorreta.
+B. correta e correta.
+C. incorreta e correta.
+D. correta e incorreta.
+
+16. Segundo a Resolução n° 30 da CVM, os profissionais que fazem recomendação de produtos de investimento para clientes são obrigadas a manter todos os documentos e declarações que comprovem a adequação do produto, serviço ou operação ao perfil do cliente, exceto em caso de processo administrativo aberto pela CVM, pelo prazo mínimo de:
+
+A. 10 (dez) anos.
+B. 5 (cinco) anos.
+C. 2 (dois) anos.
+D. 3 (três) anos.
+
+17. De acordo com o Código ANBIMA de Distribuição de Produtos de Investimento, as instituições participantes ficam isentas da obrigatoriedade de verificação da adequação do investimento ao perfil do cliente para os produtos de investimento:
+I - fundos de renda fixa classificados como simples.
+
+II - letra financeira do tesouro.
+
+III - títulos de emissão de instituições financeiras com garantia do FGC.
+ 
+Está correto o que se afirma em:
+
+A. I, apenas.
+B. I e II, apenas.
+C. II e III, apenas.
+D. I, II e III.
+
+18. Um país que tem sua balança comercial superavitária significa que:
+
+A. o total de bens exportados são superiores ao total de bens importados.
+B. tenha um maior volume de remessas de lucros e juros de empréstimos vindos do exterior.
+C. o total de bens exportados são inferiores ao total de bens importados.
+D. tenha um maior volume de remessas de lucros e juros de empréstimos enviados para o exterior.
+
+19. Umas das possíveis medidas a serem implementadas pelo Banco Central do Brasil (BACEN) para reduzir a quantidade de dinheiro em circulação na economia e a exposição das instituições financeiras ao risco de crédito é:
+
+A. o aumento da alíquota do Imposto sobre Produtos Industrializados (IPI).
+B. o aumento dos depósitos compulsórios.
+C. a contenção dos gastos públicos.
+D. a compra de títulos públicos no Open Market.
+
+20. A respeito da política monetária, é correto afirmar que a:
+
+A. elevação das taxas de juros pode comprometer a viabilidade de novos projetos de investimento na economia.
+B. compra de títulos públicos dos bancos pelo Banco Central é coerente com uma política monetária contracionista.
+C. ferramenta exclusiva para operacionalização do sistema de metas de inflação é a oferta monetária.
+D. elevação dos recolhimentos compulsórios sobre os depósitos à vista provoca um incremento dos recursos disponíveis para empréstimo nos bancos comerciais.
+
+21. Em um país como o Brasil, que adota como política cambial o regime de câmbio flexível ou flutuante, uma escassez de moeda estrangeira, como o dólar Norte Americano, gera:
+
+A. uma desvalorização cambial.
+B. uma redução nas exportações.
+C. uma valorização cambial.
+D. um aumento nas importações.
+
+22. A extensão para todos os acionistas das mesmas condições obtidas pelos controladores, quando da venda do controle acionário de uma companhia listada em Bolsa de Valores, é definida como:
+
+A. free float
+B. drag along
+C. takeover
+D. tag along
+
+23. Na escritura de emissão de uma debênture conversível deve constar que:
+
+A. os debenturistas têm direito de voto na assembleia geral da companhia emissora.
+B. será assegurada a participação dos debenturistas nos lucros futuros da companhia emissora.
+C. em determinados períodos, seus rendimentos podem mudar de prefixados para pós-fixados.
+D. os debenturistas poderão trocar seus títulos por ações da companhia emissora.
+
+24. Para efeito de tributação sobre rendimentos obtidos no mercado financeiro e de capitais, as perdas incorridas em operações de day trade:
+
+A. poderão ser compensadas com ganhos líquidos em operações realizadas em bolsa de valores, de mercadorias e assemelhadas.
+B. não poderão ser compensadas, exceto por pessoas jurídicas optantes pelo Simples.
+C. não poderão ser compensadas, exceto aos investidores estrangeiros sob o regime especial de tributação.
+D. poderão ser compensadas apenas com rendimentos em operações da mesma espécie.
+
+25. Os Certificados de Recebíveis Imobiliários (CRI) são títulos de renda fixa do segmento imobiliário:
+
+A. que podem ter cláusula de correção monetária com base na variação do dólar norte- americano.
+B. que têm os rendimentos, para o investidor pessoa física, tributados na fonte quando ocorre resgate ou vencimento.
+C. emitidos por companhia securitizadora, que são instituições não financeiras.
+D. que possuem garantia do Fundo Garantidor de Crédito (FGC).
+
+26. A base de cálculo do imposto de renda na fonte de aplicações em títulos e valores mobiliários de renda fixa é constituída pela diferença:
+
+A. negativa entre o valor da alienação e o valor da aplicação financeira, líquida do IOF, quando couber.
+B. negativa entre o valor da alienação e o valor da aplicação financeira.
+C. positiva entre o valor da alienação e o valor da aplicação financeira.
+D. positiva entre o valor da alienação e o valor da aplicação financeira, líquida do IOF, quando couber.
+
+27. O lançador de uma call (opção de compra) europeia, sobre um certo ativo objeto, em seu vencimento:
+
+A. tem a obrigação de comprar o ativo objeto, se exercido pelo titular da call.
+B. tem a opção de comprar o ativo objeto, se for de seu interesse.
+C. tem a opção de vender o ativo objeto, se for de seu interesse.
+D. tem a obrigação de vender o ativo objeto, se exercido pelo titular da call.
+
+28. Um gestor de um fundo institucional ao se posicionar em uma operação de swap, para modificar a remuneração dos ativos da carteira de taxas pré para pós-fixadas, objetiva:
+
+A. atrelar a remuneração para que seja similar às Notas do Tesouro Nacional - Série F (NTN-F)
+B. tornar aquela carteira livre de risco da taxa de juros.
+C. alterar aquela remuneração para um valor próximo à taxa básica de juros.
+D. estabelecer o retorno do fundo com rentabilidade próxima à Letra do Tesouro Nacional (LTN).
+
+29. Ao ocorrer um desdobramento de ações (split) de uma companhia aberta listada na B3
+
+A. aumenta o preço da ação no mercado.
+B. reduz a quantidade de ações dos acionistas.
+C. não altera o patrimônio dos acionistas.
+D. não altera a quantidade de ações dos acionistas.
+
+30. A lâmina é um material de divulgação de uma oferta pública de distribuição de valores mobiliários que
+
+A. substitui o prospecto preliminar.
+B. dispensa a descrição dos fatores de risco.
+C. é obrigatória nas ofertas em que a elaboração do prospecto é dispensada.
+D. é elaborada em adição ao prospecto.
+
+31. Após o início do período de oferta pública de um valor mobiliário ao mercado, é permitido às instituições participantes do consórcio de distribuição, dar ampla publicidade à oferta, inclusive por meio da disseminação de
+
+A. conteúdo aprovado previamente pela Comissão de Valores Mobiliários.
+B. informações constantes da comunicação que sejam indicadas como confidenciais.
+C. entrevistas na mídia.
+D. material publicitário que substitua o prospecto.
+
+32. A consulta sigilosa a potenciais investidores profissionais para apurar a viabilidade ou o interesse em uma eventual oferta pública de distribuição de valores mobiliários é permitida, desde que:
+
+A. seja formalizado o vínculo entre as partes.
+B. realizada após o protocolo do requerimento de registro da oferta pública.
+C. não ocorra o pagamento ou o recebimento de quaisquer valores.
+D. efetuada apenas por instituições intermediárias agindo em nome do ofertante.
+
+33. O preço unitário (PU) de um título de renda fixa prefixado sem pagamentos periódicos de juros é o:
+
+A. quociente entre o total dos cupons e o total das amortizações.
+B. valor presente dos cupons e do principal.
+C. valor nominal atualizado.
+D. preço de negociação do título calculado em determinada data.
+
+34. Um investidor ao adquirir um Fundo de Ações, que investe em empresas Small Caps, deverá ser informado de que os principais fatores de risco dessa carteira são os de:
+
+A. mercado e liquidez.
+B. crédito e mercado.
+C. liquidez e crédito.
+D. mercado e operacional.
+
+35. Na hipótese de liquidação de um fundo de investimento de renda fixa aberto aos investidores em geral, o patrimônio líquido apurado deve ser
+
+A. direcionado para um outro fundo de risco similar, sob gestão do mesmo gestor do fundo liquidado.
+B. direcionado para um outro fundo de risco similar, sob gestão do mesmo administrador do fundo liquidado.
+C. transferido em sua totalidade para o administrador do fundo, que irá realizar uma nova alocação a ser comunicada aos cotistas.
+D. dividido entre os cotistas, na proporção de suas cotas, no prazo eventualmente definido na Assembleia Geral de cotistas.
+
+36. Segundo o Código ANBIMA de Administração e Gestão de Recursos de Terceiros, no cálculo de cotas em fundos de investimento, apreçamento dos ativos é a precificação dos ativos líquidos pelo preço:
+
+A. de fechamento.
+B. de mercado.
+C. de aquisição.
+D. médio.
+
+37. Em relação as diferentes modalidades dos fundos de investimento, os fundos:
+
+A. fechados são aqueles em que os cotistas podem resgatar suas cotas a qualquer momento.
+B. de renda fixa não podem adquirir ativos no exterior.
+C. exclusivos são voltados para um segmento de mercado, como empresas do segmento de energia elétrica.
+D. de ações podem comprar cotas de outros fundos.
+
+38. Ao explicar para seu cliente os três níveis da Classificação de Fundos ANBIMA, um gerente afirmou-lhe que:
+ I. O Nível 1 faz referência às classes definidas pela Comissão de Valores Mobiliários (CVM).
+
+II. O Nível 2 identifica os tipos de gestão e riscos.
+
+III. O Nível 3 identifica as estratégias de investimento.
+ 
+Está correto o que se afirma em
+
+A. I, II e III.
+B. I, apenas.
+C. I e III, apenas.
+D. I e II, apenas.
+
+39. Um fundo que aplica 100% de seu patrimônio líquido em títulos representativos da dívida externa de responsabilidade da União transacionados no mercado internacional, deve ser classificado, segundo a regulamentação vigente, como Fundo
+
+A. Renda Fixa Crédito Privado.
+B. Cambial.
+C. Multimercado.
+D. Renda Fixa Dívida Externa.
+
+40. Um investidor adquiriu cotas de um fundo de renda variável no valor de R$ 200.000,00 e, após 60 dias, as vendeu integralmente por R$ 220.000,00. Nesse caso, o agente responsável pelo recolhimento dos tributos é o:
+
+A. investidor.
+B. administrador.
+C. gestor.
+D. custodiante.
+
+41. Para um investidor pessoa física domiciliado e residente no Brasil:
+
+A. o Fundo de Ações estão sujeitos ao Imposto sobre Operações de crédito, câmbio e seguros ou relativas a títulos e valores mobiliários (IOF) decrescente, de acordo com o prazo de aplicação.
+B. a aplicação de recursos em um Fundo de Renda Fixa de Longo Prazo e subsequente resgate em 270 dias corridos geram Imposto de Renda à alíquota de 17,50% sobre os rendimentos.
+C. os ganhos no Fundo Multimercado de Curto Prazo são tributados à alíquota mínima de 20,00% sobre os rendimentos gerados entre a aplicação e o resgate.
+D. as perdas apuradas no Fundo de Ações podem ser utilizadas para a redução do Imposto de Renda devido sobre futuros ganhos em Fundo de Renda Fixa do mesmo administrador.
+
+42. Em relação à tributação dos fundos de investimento imobiliário pelo imposto de renda, é correto afirmar que:
+
+A. trata-se de uma modalidade de aplicação isenta de imposto, para pessoa jurídica, sobre os ganhos de capital e/ou rendimentos na alienação ou resgate das cotas.
+B. o imposto apurado deve ser recolhido pelo próprio titular das cotas, em 31 de junho e 31 de dezembro de cada ano.
+C. há dois tipos de fatos geradores: a distribuição dos lucros auferidos pelo fundo aos cotistas e a obtenção de ganhos de capital e rendimentos na alienação ou resgate de cotas.
+D. os lucros auferidos pelo fundo e que sejam distribuídos aos cotistas devem ser tributados na fonte à alíquota de 15%.
+
+43. Um investidor que acredita em uma queda da taxa de juros maior que a do consenso de mercado, deve aplicar seus recursos em um fundo de investimento cuja carteira seja composta principalmente por:
+
+A. títulos prefixados e títulos pós-fixados indexados à Taxa Selic.
+B. títulos prefixados.
+C. títulos pós-fixados indexados ao Di e títulos prefixados.
+D. títulos pós-fixados indexados à Taxa Selic.
+
+44. Os Fundos de índices ou ETFs (Exchange Traded Funds), dentre outras características:
+I. permitem a cotação, compra e venda no intraday.
+
+II. podem operar alavancados.
+
+III. garantem ao investidor custos menores para montar uma carteira diversificada.
+
+Está correto o que se afirma em
+
+
+A. I e III, apenas.
+B. I, apenas.
+C. II, apenas.
+D. I, II e III.
+
+45. Nas aplicações em fundos de investimento realizadas por conta e ordem de clientes,
+
+A. o distribuidor é o responsável por efetuar a retenção e o recolhimento dos tributos incidentes nos resgates das cotas dos seus clientes que subscreverem cotas desse fundo.
+B. caso o contrato firmado entre o administrador e o distribuidor seja rescindido, as cotas desses clientes devem ser resgatadas, seguindo as regras do regulamento do fundo.
+C. o administrador do fundo é o responsável por realizar os procedimentos de controle e manutenção de informações desses cotistas, visando a proteção e combate à lavagem de dinheiro ou ocultação de bens, direitos e valores.
+D. o administrador do fundo deve escriturar, no registro de cotistas, as cotas subscritas em nome dos respectivos cotistas, com base nas informações fornecidas pelo distribuidor.
+
+46. Uma gestora de recursos estabelece uma área de investimentos alternativos e cria um Fundo de Investimento em Participações (FIP), por meio do qual realiza investimentos em private equity.
+Em comparação com investimentos tradicionais, o novo fundo gerido pela gestora tipicamente apresenta:
+
+
+A. retorno mais alto na fase inicial do investimento.
+B. maior volatilidade na marcação a mercado dos ativos.
+C. prazo de maturação mais curto.
+D. menor liquidez na negociação das cotas.
+
+47. Um cliente que possui um plano de previdência complementar do tipo Vida Gerador de Benefício Livre - VGBL perguntou a seu gerente se poderia fazer a portabilidade de seus recursos para sua mãe. O gerente respondeu que a portabilidade dos recursos acumulados no VGBL:
+
+A. poderá ser realizada e não haverá incidência de imposto de renda.
+B. poderá ser realizada, mas haverá incidência de imposto de renda.
+C. não poderá ser realizada, pois é vedada para planos do tipo VGBL.
+D. não poderá ser realizada, pois é vedada entre participantes distintos.
+
+48. Os planos de previdência complementar do tipo PGBL (Plano Gerador de Benefício Livre) e VGBL (Vida Gerador de Benefício Livre):
+I - possibilitam a portabilidade entre os planos, durante o período de contribuição.
+
+II - possuem benefícios fiscais (diferimento de impostos sobre as contribuições) aos seus investidores, em determinadas situações.
+
+III - permitem a escolha de duas opções de tributação, pela tabela regressiva ou progressiva para cálculo do imposto de renda, na contratação dos planos ou no resgate.
+ 
+Está correto o que se afirma em:
+
+A. III, apenas.
+B. I e II, apenas.
+C. I, apenas.
+D. II e III, apenas.
+
+49. Um cliente contratou um plano de previdência complementar do tipo Plano Gerador de Benefício Livre (PGBL), com regime de tributação definitivo (tabela regressiva). Aos 70 anos de idade, 15 anos após a sua última contribuição, ele possui um saldo acumulado de R$ 500.000,00, sendo R$ 300.000,00 referente ao valor nominal das contribuições e R$ 200.000,00 aos rendimentos. Se ele resgatar a totalidade dos recursos, durante o período de diferimento, e optar por manter o mesmo regime de tributação, pagara imposto de renda de:
+
+A. 15,00% sobre R$ 200.000,00.
+B. 15,00% sobre R$ 500.000,00.
+C. 10,00% sobre R$ 500.000,00.
+D. 10,00% sobre R$ 200.000,00.
+
+50. Mônica decidiu contratar um plano de previdência complementar do tipo Vida Gerador de Benefício Livre (VGBL), com aportes mensais de R$ 2.000,00 e Tábua Biométrica BR-EMSsb. Seu objetivo é o de acumular o maior valor possível em 30 anos, para converter a reserva acumulada em um benefício de renda mensal vitalícia. Nesse caso, ela deverá selecionar, na fase de diferimento, um plano que possua a _______________ taxa de carregamento e a ____________ rentabilidade do fundo; e, na fase de concessão do benefício, o _____________ percentual de reversão do excedente financeiro.
+As lacunas da frase deverão ser preenchidas corretamente por
+
+
+A. menor – maior - menor
+B. maior – maior – menor
+C. menor – maior – maior
+D. menor – menor - menor
+
+51. Considere o seguinte fluxo de caixa de um investidor:
+Rendas
+
+- Aluguel: R$ 60.000,00/ ano
+
+Despesas
+
+- Previdência Social: R$ 0,00
+
+- Plano de Saúde: R$ 6.600,00/ano
+
+- Alimentação: R$ 4.800,00/ano
+
+- Remédios e Vestuário: R$ 3.600,00/ ano
+
+ 
+
+Com relação à utilização do PGBL - Plano Gerador de Benefício Livre, para obtenção de benefícios fiscais, é correto afirmar que
+
+
+A. não se pode utilizar uma vez que não possui vínculo, ou seja, não é contribuinte e nem beneficiário da previdência social.
+B. pode-se utilizar desde que utilize o modelo completo de declaração de ajuste anual de imposto de renda.
+C. pode-se utilizar pois a contribuição ao PGBL aumentaria suas despesas dedutíveis proporcionando benefício fiscal.
+D. não se pode utilizar pois sua renda bruta não possibilita a declaração pelo modelo completo de imposto de renda.
+
+52. Uma empresa necessita de dinheiro para honrar seus compromissos e decide vender um imóvel adquirido por R$ 500.000,00, sendo R$ 600.000,00 sua última avaliação de mercado. É apresentada e aceita, devido à necessidade, uma única oferta de R$ 300.000,00. A perda ocorrida no investimento deveu-se aos efeitos do risco:
+
+A. sistemático.
+B. de crédito.
+C. de liquidez.
+D. de mercado.
+
+53. Se um fundo de investimento apresentar as mesmas taxas de retorno diárias, a variância dessas taxas é:
+
+A. crescente.
+B. nula.
+C. positiva.
+D. decrescente.
+
+54. Um investidor toma a decisão de zerar as posições de derivativos que possuía em sua carteira, influenciado por notícias de perdas significativas ocasionadas por esse instrumento. Entretanto, observa que o VaR das carteiras aumentou significativamente. Esse efeito, provavelmente, ocorreu devido:
+
+A. ao resultado fiscal gerado pela eliminação dos derivativos.
+B. à variação dos preços dos ativos que estavam sendo protegidos (hedgeados) pelos derivativos.
+C. à redução do risco de mercado causado pela eliminação dos derivativos.
+D. à diminuição da duration de Macaulay da carteira.
+
+55. Conhecida apenas a variância dos retornos diários do preço de um título, pode-se determinar, imediatamente:
+
+A. o desvio padrão.
+B. a covariância.
+C. a correlação.
+D. o coeficiente de determinação (R2).
+
+56. A carteira de um fundo de investimentos em renda fixa possui duration de Macaulay de 175 dias. O gestor deseja utilizar os novos recursos aplicados no fundo de modo a diminuir a sua exposição às variações nas taxas de juros prefixadas. Para alcançar tal objetivo, o gestor deve comprar Letras do Tesouro Nacional (LTN) com prazo:
+
+A. superior a 175 e inferior a 360 dias.
+B. exatamente igual a 175 dias.
+C. inferior a 175 dias.
+D. superior a 360 dias.
+
+57. Se a cada elemento de um dado conjunto de números forem adicionadas duas unidades, então, a média:
+
+A. e o desvio-padrão não se alterarão.
+B. aumentará em duas unidades e o desvio-padrão não se alterará.
+C. não se alterará e o desvio-padrão aumentará em duas unidades.
+D. e o desvio-padrão aumentarão em duas unidades.
+
+58. O erro quadrático médio dos retornos de um fundo de investimento:
+
+A. deve estar entre -1 e +1.
+B. deve estar entre -1,65 e +1,65.
+C. é sempre maior ou igual a zero.
+D. é sempre negativo.
+
+59. Uma das medidas de risco de um ativo mais frequentemente usada é o desvio padrão dos seus retornos. Esta medida reflete a distância:
+
+A. média entre um dado retorno e o máximo dos retornos.
+B. máxima entre um dado retorno e a média dos retornos.
+C. mínima entre um dado retorno e o mínimo dos retornos.
+D. média entre um dado retorno e a média dos retornos
+
+60. O banco coordenador de uma oferta pública de ações é responsável pela:
+
+A. elaboração de relatórios contendo a formação de preço no mercado secundário.
+B. verificação da veracidade das informações incluídas nos prospectos.
+C. emissão de listas contendo as aquisições das ações não disponibilizadas a investidores institucionais.
+D. divulgação de relatórios contendo as projeções de resultados da emissora.
