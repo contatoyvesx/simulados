@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulados de Treinamento</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="branding">
+      <div class="logo">🎯</div>
+      <div>
+        <p class="eyebrow">Treino interativo</p>
+        <h1>Simulados ANBIMA</h1>
+      </div>
+    </div>
+    <div class="session-info" id="sessionInfo">Escolha um simulado para começar</div>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <h2>Configurações do simulado</h2>
+      <p class="muted">Selecione um dos cadernos de questões já presentes neste projeto. O texto das questões e do gabarito é carregado exatamente como está nos arquivos.</p>
+      <div class="control-grid">
+        <label class="control">
+          <span>Escolha o simulado</span>
+          <select id="simuladoSelect"></select>
+        </label>
+        <label class="control">
+          <span>Modo de exibição</span>
+          <select id="displayMode">
+            <option value="single" selected>Uma questão por vez</option>
+            <option value="all">Perguntas completas com opções</option>
+          </select>
+        </label>
+      </div>
+      <button id="startButton" class="primary">Iniciar simulado</button>
+      <div class="status" id="loadStatus">Nenhum simulado carregado</div>
+    </section>
+
+    <section class="panel" id="questionPanel" hidden>
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow" id="progressLabel"></p>
+          <h2 id="questionTitle"></h2>
+        </div>
+        <div class="score" id="scoreBoard"></div>
+      </div>
+
+      <div class="question-body">
+        <div id="questionText" class="question-text"></div>
+        <form id="optionsContainer" class="options"></form>
+        <div id="feedback" class="feedback" role="status"></div>
+      </div>
+
+      <div class="actions">
+        <button id="checkButton" class="secondary">Conferir resposta</button>
+        <button id="nextButton" class="primary" disabled>Próxima questão</button>
+      </div>
+    </section>
+
+    <section class="panel" id="summaryPanel" hidden>
+      <h2>Resumo do simulado</h2>
+      <p id="summaryText"></p>
+      <div id="summaryList" class="summary-list"></div>
+      <button id="restartButton" class="secondary">Voltar para seleção</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
