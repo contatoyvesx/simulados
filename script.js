@@ -3,7 +3,7 @@ const SIMULADOS = [
   { id: '2', nome: 'Simulado 2', simuladoPath: '2 - corrigido/SIMULADO 2.txt', gabaritoPath: '2 - corrigido/GABARITO 2.txt' },
   { id: '3', nome: 'Simulado 3', simuladoPath: '3 - corrigido/SIMULADO 3.txt', gabaritoPath: '3 - corrigido/GABARITO 3.txt' },
   { id: '4', nome: 'Simulado 4', simuladoPath: '4 - corrigido/SIMULADO 4.txt', gabaritoPath: '4 - corrigido/GABARITO 4.txt' },
-  { id: '5', nome: 'Simulado 5', simuladoPath: '5 - corrigido/SIMULADO 5.txt', gabaritoPath: '5 - corrigido/GABARITO 5.txt' },
+  { id: '5', nome: 'Simulado 5', simuladoPath: '5 - corrigido/SIMULAO 5.txt', gabaritoPath: '5 - corrigido/GABARITO 5.txt' },
   { id: '6', nome: 'Simulado 6', simuladoPath: '6 - corrigido/SIMULADO 6.txt', gabaritoPath: '6 - corrigido/GABARITO 6.txt' },
   { id: '7', nome: 'Simulado 7', simuladoPath: '7 - corrigido/SIMULADO 7.txt', gabaritoPath: '7 - corrigido/GABARITO 7.txt' },
   { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' },
