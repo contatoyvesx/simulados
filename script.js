@@ -3,11 +3,14 @@ const SIMULADOS = [
   { id: '2', nome: 'Simulado 2', simuladoPath: '2 - corrigido/SIMULADO 2.txt', gabaritoPath: '2 - corrigido/GABARITO 2.txt' },
   { id: '3', nome: 'Simulado 3', simuladoPath: '3 - corrigido/SIMULADO 3.txt', gabaritoPath: '3 - corrigido/GABARITO 3.txt' },
   { id: '4', nome: 'Simulado 4', simuladoPath: '4 - corrigido/SIMULADO 4.txt', gabaritoPath: '4 - corrigido/GABARITO 4.txt' },
-  { id: '5', nome: 'Simulado 5', simuladoPath: '5 - corrigido/SIMULADO 5.txt', gabaritoPath: '5 - corrigido/GABARITO 5.txt' },
+  { id: '5', nome: 'Simulado 5', simuladoPath: '5 - corrigido/SIMULAO 5.txt', gabaritoPath: '5 - corrigido/GABARITO 5.txt' },
   { id: '6', nome: 'Simulado 6', simuladoPath: '6 - corrigido/SIMULADO 6.txt', gabaritoPath: '6 - corrigido/GABARITO 6.txt' },
   { id: '7', nome: 'Simulado 7', simuladoPath: '7 - corrigido/SIMULADO 7.txt', gabaritoPath: '7 - corrigido/GABARITO 7.txt' },
-  { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' }
+  { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' },
+  { id: 'all', nome: 'Todas as provas', aggregate: true }
 ];
+
+const BASE_SIMULADOS = SIMULADOS.filter((item) => !item.aggregate);
 
 const select = document.getElementById('simuladoSelect');
 const startButton = document.getElementById('startButton');
@@ -26,12 +29,21 @@ const summaryPanel = document.getElementById('summaryPanel');
 const summaryText = document.getElementById('summaryText');
 const summaryList = document.getElementById('summaryList');
 const restartButton = document.getElementById('restartButton');
-const displayMode = document.getElementById('displayMode');
-
 let currentSimulado = null;
 let questions = [];
 let currentIndex = 0;
 let answered = new Map();
+
+function shuffleAndRenumber(list) {
+  const shuffled = [...list];
+
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.map((q, idx) => ({ ...q, number: idx + 1 }));
+}
 
 function populateSelect() {
   SIMULADOS.forEach((item) => {
@@ -128,9 +140,33 @@ function parseQuestions(text, answers) {
   return parsed;
 }
 
+async function buildAggregateAllQuestions() {
+  const aggregated = [];
+
+  for (const simulado of BASE_SIMULADOS) {
+    const [simText, gabText] = await Promise.all([
+      loadFile(simulado.simuladoPath),
+      loadFile(simulado.gabaritoPath)
+    ]);
+
+    const answers = parseAnswerKey(gabText);
+    const parsed = parseQuestions(simText, answers)
+      .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }));
+
+    aggregated.push(...parsed);
+  }
+
+  return aggregated;
+}
+
 function renderQuestion(index) {
   const q = questions[index];
-  questionTitle.textContent = `Questão ${q.number}`;
+  const sourceLabel = q.source ? ` — ${q.source}` : '';
+  const originalLabel = q.originalNumber && q.originalNumber !== q.number
+    ? ` (original ${q.originalNumber})`
+    : '';
+
+  questionTitle.textContent = `Questão ${q.number}${sourceLabel}${originalLabel}`;
   questionText.textContent = q.text || 'Sem enunciado disponível';
 
   progressLabel.textContent = `Progresso: ${index + 1} / ${questions.length}`;
@@ -175,7 +211,8 @@ function showSummary() {
     const record = answered.get(q.number);
     const div = document.createElement('div');
     div.className = `summary-item ${record && record.correct ? 'correct' : 'incorrect'}`;
-    div.innerHTML = `<span>Questão ${q.number}</span><span>${record?.chosen || '-'} / ${q.correct || '?'}</span>`;
+    const sourceLabel = q.source ? ` — ${q.source}` : '';
+    div.innerHTML = `<span>Questão ${q.number}${sourceLabel}</span><span>${record?.chosen || '-'} / ${q.correct || '?'}</span>`;
     summaryList.appendChild(div);
   });
 
@@ -203,47 +240,46 @@ async function startSimulado() {
   summaryPanel.hidden = true;
   sessionInfo.textContent = 'Preparando questões';
 
-  try {
-    const [simText, gabText] = await Promise.all([
-      loadFile(simulado.simuladoPath),
-      loadFile(simulado.gabaritoPath)
-    ]);
+    try {
+      if (simulado.aggregate) {
+        questions = shuffleAndRenumber(await buildAggregateAllQuestions());
 
-    const answers = parseAnswerKey(gabText);
-    questions = parseQuestions(simText, answers);
+        if (questions.length === 0) {
+          throw new Error('Nenhuma questão encontrada em todos os simulados.');
+        }
 
-    if (questions.length === 0) {
-      throw new Error('Nenhuma questão encontrada.');
-    }
+        currentSimulado = { nome: simulado.nome };
+      } else {
+        const [simText, gabText] = await Promise.all([
+          loadFile(simulado.simuladoPath),
+          loadFile(simulado.gabaritoPath)
+        ]);
 
-    if (displayMode.value === 'all') {
-      questionText.textContent = questions.map((q) => `${q.number}. ${q.text}\n${q.options.map((o) => `${o.letter}) ${o.text}`).join('\n')}`).join('\n\n');
-      optionsContainer.innerHTML = '';
-      checkButton.disabled = true;
-      nextButton.disabled = true;
-      feedback.textContent = 'O modo completo exibe todas as questões para leitura rápida. Use o modo "Uma questão por vez" para responder e validar.';
-      feedback.className = 'feedback';
-      questionTitle.textContent = 'Visualização completa';
-      progressLabel.textContent = `${questions.length} questões carregadas`;
-      scoreBoard.textContent = '';
+        const answers = parseAnswerKey(gabText);
+        questions = shuffleAndRenumber(
+          parseQuestions(simText, answers)
+            .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
+        );
+
+        if (questions.length === 0) {
+          throw new Error('Nenhuma questão encontrada.');
+        }
+
+        currentSimulado = simulado;
+      }
+
+      currentIndex = 0;
+      answered = new Map();
+      renderQuestion(currentIndex);
       questionPanel.hidden = false;
+      summaryPanel.hidden = false;
       summaryPanel.hidden = true;
-      return;
+      sessionInfo.textContent = `${simulado.nome} carregado`;
+      loadStatus.textContent = `${questions.length} questões prontas para responder.`;
+    } catch (error) {
+      console.error(error);
+      loadStatus.textContent = error.message;
     }
-
-    currentSimulado = simulado;
-    currentIndex = 0;
-    answered = new Map();
-    renderQuestion(currentIndex);
-    questionPanel.hidden = false;
-    summaryPanel.hidden = false;
-    summaryPanel.hidden = true;
-    sessionInfo.textContent = `${simulado.nome} carregado`;
-    loadStatus.textContent = `${questions.length} questões prontas para responder.`;
-  } catch (error) {
-    console.error(error);
-    loadStatus.textContent = error.message;
-  }
 }
 
 function checkCurrent() {
