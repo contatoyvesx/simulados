@@ -34,6 +34,17 @@ let questions = [];
 let currentIndex = 0;
 let answered = new Map();
 
+function shuffleAndRenumber(list) {
+  const shuffled = [...list];
+
+  for (let i = shuffled.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.map((q, idx) => ({ ...q, number: idx + 1 }));
+}
+
 function populateSelect() {
   SIMULADOS.forEach((item) => {
     const option = document.createElement('option');
@@ -145,7 +156,7 @@ async function buildAggregateAllQuestions() {
     aggregated.push(...parsed);
   }
 
-  return aggregated.map((q, idx) => ({ ...q, number: idx + 1 }));
+  return aggregated;
 }
 
 function renderQuestion(index) {
@@ -231,7 +242,7 @@ async function startSimulado() {
 
     try {
       if (simulado.aggregate) {
-        questions = await buildAggregateAllQuestions();
+        questions = shuffleAndRenumber(await buildAggregateAllQuestions());
 
         if (questions.length === 0) {
           throw new Error('Nenhuma questão encontrada em todos os simulados.');
@@ -245,8 +256,10 @@ async function startSimulado() {
         ]);
 
         const answers = parseAnswerKey(gabText);
-        questions = parseQuestions(simText, answers)
-          .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }));
+        questions = shuffleAndRenumber(
+          parseQuestions(simText, answers)
+            .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
+        );
 
         if (questions.length === 0) {
           throw new Error('Nenhuma questão encontrada.');
