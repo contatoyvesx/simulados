@@ -27,6 +27,7 @@ const summaryText = document.getElementById('summaryText');
 const summaryList = document.getElementById('summaryList');
 const restartButton = document.getElementById('restartButton');
 const displayMode = document.getElementById('displayMode');
+const questionFilter = document.getElementById('questionFilter');
 
 let currentSimulado = null;
 let questions = [];
@@ -128,6 +129,20 @@ function parseQuestions(text, answers) {
   return parsed;
 }
 
+function containsRomanNumerals(text) {
+  if (!text) return false;
+  const normalized = text.replace(/\s+/g, ' ');
+  const romanPattern = /\b[IVXLCDM]{1,4}\b/i;
+  const typoFriendlyPattern = /\bI[lL]{1,2}\b/;
+  return romanPattern.test(normalized) || typoFriendlyPattern.test(normalized);
+}
+
+function filterQuestionsByMode(allQuestions) {
+  if (questionFilter.value !== 'roman') return allQuestions;
+
+  return allQuestions.filter((q) => containsRomanNumerals(q.text));
+}
+
 function renderQuestion(index) {
   const q = questions[index];
   questionTitle.textContent = `Questão ${q.number}`;
@@ -210,11 +225,22 @@ async function startSimulado() {
     ]);
 
     const answers = parseAnswerKey(gabText);
-    questions = parseQuestions(simText, answers);
+    const parsedQuestions = parseQuestions(simText, answers);
+    questions = filterQuestionsByMode(parsedQuestions);
 
     if (questions.length === 0) {
-      throw new Error('Nenhuma questão encontrada.');
+      const filterMessage =
+        questionFilter.value === 'roman'
+          ? 'Nenhuma questão com numerais romanos encontrada.'
+          : 'Nenhuma questão encontrada.';
+      throw new Error(filterMessage);
     }
+
+    const filteredOut = parsedQuestions.length - questions.length;
+    const filterLabel =
+      questionFilter.value === 'roman'
+        ? ` (${filteredOut} questões sem numerais romanos foram ocultadas)`
+        : '';
 
     if (displayMode.value === 'all') {
       questionText.textContent = questions.map((q) => `${q.number}. ${q.text}\n${q.options.map((o) => `${o.letter}) ${o.text}`).join('\n')}`).join('\n\n');
@@ -239,7 +265,7 @@ async function startSimulado() {
     summaryPanel.hidden = false;
     summaryPanel.hidden = true;
     sessionInfo.textContent = `${simulado.nome} carregado`;
-    loadStatus.textContent = `${questions.length} questões prontas para responder.`;
+    loadStatus.textContent = `${questions.length} questões prontas para responder.${filterLabel}`;
   } catch (error) {
     console.error(error);
     loadStatus.textContent = error.message;
