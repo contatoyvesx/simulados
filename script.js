@@ -6,8 +6,11 @@ const SIMULADOS = [
   { id: '5', nome: 'Simulado 5', simuladoPath: '5 - corrigido/SIMULADO 5.txt', gabaritoPath: '5 - corrigido/GABARITO 5.txt' },
   { id: '6', nome: 'Simulado 6', simuladoPath: '6 - corrigido/SIMULADO 6.txt', gabaritoPath: '6 - corrigido/GABARITO 6.txt' },
   { id: '7', nome: 'Simulado 7', simuladoPath: '7 - corrigido/SIMULADO 7.txt', gabaritoPath: '7 - corrigido/GABARITO 7.txt' },
-  { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' }
+  { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' },
+  { id: 'roman-all', nome: 'Todas as provas (apenas romanos)', aggregate: true }
 ];
+
+const BASE_SIMULADOS = SIMULADOS.filter((item) => !item.aggregate);
 
 const select = document.getElementById('simuladoSelect');
 const startButton = document.getElementById('startButton');
@@ -27,6 +30,7 @@ const summaryText = document.getElementById('summaryText');
 const summaryList = document.getElementById('summaryList');
 const restartButton = document.getElementById('restartButton');
 const displayMode = document.getElementById('displayMode');
+const questionFilter = document.getElementById('questionFilter');
 
 let currentSimulado = null;
 let questions = [];
@@ -128,9 +132,48 @@ function parseQuestions(text, answers) {
   return parsed;
 }
 
+function containsRomanNumerals(text) {
+  if (!text) return false;
+  const normalized = text.replace(/\s+/g, ' ');
+  const romanPattern = /\b[IVXLCDM]{1,4}\b/i;
+  const typoFriendlyPattern = /\bI[lL]{1,2}\b/;
+  return romanPattern.test(normalized) || typoFriendlyPattern.test(normalized);
+}
+
+function filterQuestionsByMode(allQuestions) {
+  if (questionFilter.value !== 'roman') return allQuestions;
+
+  return allQuestions.filter((q) => containsRomanNumerals(q.text));
+}
+
+async function buildAggregateRomanQuestions() {
+  const aggregated = [];
+
+  for (const simulado of BASE_SIMULADOS) {
+    const [simText, gabText] = await Promise.all([
+      loadFile(simulado.simuladoPath),
+      loadFile(simulado.gabaritoPath)
+    ]);
+
+    const answers = parseAnswerKey(gabText);
+    const parsed = parseQuestions(simText, answers)
+      .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
+      .filter((q) => containsRomanNumerals(q.text));
+
+    aggregated.push(...parsed);
+  }
+
+  return aggregated.map((q, idx) => ({ ...q, number: idx + 1 }));
+}
+
 function renderQuestion(index) {
   const q = questions[index];
-  questionTitle.textContent = `Questão ${q.number}`;
+  const sourceLabel = q.source ? ` — ${q.source}` : '';
+  const originalLabel = q.originalNumber && q.originalNumber !== q.number
+    ? ` (original ${q.originalNumber})`
+    : '';
+
+  questionTitle.textContent = `Questão ${q.number}${sourceLabel}${originalLabel}`;
   questionText.textContent = q.text || 'Sem enunciado disponível';
 
   progressLabel.textContent = `Progresso: ${index + 1} / ${questions.length}`;
@@ -175,7 +218,8 @@ function showSummary() {
     const record = answered.get(q.number);
     const div = document.createElement('div');
     div.className = `summary-item ${record && record.correct ? 'correct' : 'incorrect'}`;
-    div.innerHTML = `<span>Questão ${q.number}</span><span>${record?.chosen || '-'} / ${q.correct || '?'}</span>`;
+    const sourceLabel = q.source ? ` — ${q.source}` : '';
+    div.innerHTML = `<span>Questão ${q.number}${sourceLabel}</span><span>${record?.chosen || '-'} / ${q.correct || '?'}</span>`;
     summaryList.appendChild(div);
   });
 
@@ -204,20 +248,52 @@ async function startSimulado() {
   sessionInfo.textContent = 'Preparando questões';
 
   try {
-    const [simText, gabText] = await Promise.all([
-      loadFile(simulado.simuladoPath),
-      loadFile(simulado.gabaritoPath)
-    ]);
+    let filterLabel = '';
 
-    const answers = parseAnswerKey(gabText);
-    questions = parseQuestions(simText, answers);
+    if (simulado.aggregate) {
+      questions = await buildAggregateRomanQuestions();
 
-    if (questions.length === 0) {
-      throw new Error('Nenhuma questão encontrada.');
+      if (questions.length === 0) {
+        throw new Error('Nenhuma questão com numerais romanos encontrada em todos os simulados.');
+      }
+
+      filterLabel = ' (questões com algarismos romanos de todos os simulados)';
+      currentSimulado = { nome: simulado.nome };
+      questionFilter.value = 'roman';
+    } else {
+      const [simText, gabText] = await Promise.all([
+        loadFile(simulado.simuladoPath),
+        loadFile(simulado.gabaritoPath)
+      ]);
+
+      const answers = parseAnswerKey(gabText);
+      const parsedQuestions = parseQuestions(simText, answers)
+        .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }));
+      questions = filterQuestionsByMode(parsedQuestions);
+
+      if (questions.length === 0) {
+        const filterMessage =
+          questionFilter.value === 'roman'
+            ? 'Nenhuma questão com numerais romanos encontrada.'
+            : 'Nenhuma questão encontrada.';
+        throw new Error(filterMessage);
+      }
+
+      const filteredOut = parsedQuestions.length - questions.length;
+      filterLabel =
+        questionFilter.value === 'roman'
+          ? ` (${filteredOut} questões sem numerais romanos foram ocultadas)`
+          : '';
+      currentSimulado = simulado;
     }
 
     if (displayMode.value === 'all') {
-      questionText.textContent = questions.map((q) => `${q.number}. ${q.text}\n${q.options.map((o) => `${o.letter}) ${o.text}`).join('\n')}`).join('\n\n');
+      questionText.textContent = questions.map((q) => {
+        const headerSource = q.source ? `${q.source} — ` : '';
+        const headerNumber = q.originalNumber ? `Questão ${q.originalNumber}` : `Questão ${q.number}`;
+        const options = q.options.map((o) => `${o.letter}) ${o.text}`).join('\n');
+        return `${headerSource}${headerNumber}\n${q.text}\n${options}`;
+      }).join('\n\n');
       optionsContainer.innerHTML = '';
       checkButton.disabled = true;
       nextButton.disabled = true;
@@ -231,7 +307,6 @@ async function startSimulado() {
       return;
     }
 
-    currentSimulado = simulado;
     currentIndex = 0;
     answered = new Map();
     renderQuestion(currentIndex);
@@ -239,7 +314,7 @@ async function startSimulado() {
     summaryPanel.hidden = false;
     summaryPanel.hidden = true;
     sessionInfo.textContent = `${simulado.nome} carregado`;
-    loadStatus.textContent = `${questions.length} questões prontas para responder.`;
+    loadStatus.textContent = `${questions.length} questões prontas para responder.${filterLabel}`;
   } catch (error) {
     console.error(error);
     loadStatus.textContent = error.message;
