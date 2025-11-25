@@ -1,0 +1,423 @@
+1. 1) A Circular Bacen 3.978/20 (e suas atualizações), no seu art. 18°, determina que as instituições autorizadas a funcionar pelo Banco Central do Brasil devem adotar procedimentos que permitam qualificar seus clientes por meio da coleta, verificação e validação de informações, compatíveis com o perfil de risco do cliente e com a natureza da relação de negócio. Em conformidade com as informações acima, está correto afirmar que I. a qualificação do cliente deve ser reavaliada de forma permanente, de acordo com a evolução da relação de negócio e do perfil de risco. Il. os procedimentos de qualificação do cliente pessoa jurídica, devem incluir a análise da cadeia de participação societária até a identificação da pessoa natural caracterizada como seu beneficiário final. Pode-se afirmar que l e II, respectivamente, estão
+
+A. Incorreta e correta.
+B. Correta e correta.
+C. Correta e incorreta.
+D. Incorreta e incorreta.
+
+2. 2) Um banco múltiplo com carteiras comercial e de arrendamento mercantil é autorizado pelo Banco Central a
+
+A. Intermediar operações de câmbio.
+B. Receber depósitos a prazo.
+C. Administrar fundos de investimento.
+D. Executar ordens de seus clientes no sistema de negociação das bolsas.
+
+3. 3) O Sistema de Pagamentos Brasileiro - SPB destina-se a promover a transferência
+
+A. De fundos interbancários, próprios ou de terceiros, que podem ser liquidados, inclusive em tempo real, com a consequente redução do risco sistêmico.
+B. Exclusiva de fundos entre os correntistas de um mesmo conglomerado financeiro, em tempo real, com a consequente redução do risco sistêmico.
+C. De reservas bancárias que representem recursos próprios das instituições financeiras que possuam conta no sistema de transferência de reservas - STF, em tempo real, com a consequente redução do risco sistêmico.
+D. De recursos financeiros próprios de instituições que pertençam a um mesmo conglomerado financeiro por meio da câmara interbancária de pagamentos.
+
+4. 4) Os Códigos da ANBIMA de Regulação e Melhores Práticas se aplicam, exclusivamente, às
+
+A. Instituições financeiras reguladas pelo Banco Central.
+B. Instituições reguladas pela Comissão de Valores Mobiliários (CVM).
+C. Instituições associadas e às que aderirem voluntariamente.
+D. Administradoras de fundos de investimento.
+
+5.  5) A Lei Complementar n° 179/2021, que estabeleceu a autonomia do Banco Central do Brasil (BACEN), definiu como objetivo fundamental do BACEN
+
+A. A eficiência do sistema financeiro.
+B. A estabilidade de preços.
+C. Suavizar as flutuações do nível de atividade econômica.
+D. O fomento ao pleno emprego.
+
+6. 6) De acordo com o Código ANIMA de Distribuição de Produtos de Investimento, as instituições participantes estão dispensadas de observar as obrigações dispostas neste Código, na distribuição de produtos de investimento, como regra geral, para: I - União, Estados, Municípios e Distrito Federal. II - Pessoa jurídica dos segmentos classificados como Middle e Corporate, segundo critérios estabelecidos pela própria instituição participante. III - Caderneta de poupança. Está correto o que se afirma em:
+
+A. II e III, apenas.
+B. I e II, apenas.
+C. I, apenas.
+D. I, II e III.
+
+7. 7) Umas das possíveis medidas a serem implementadas pelo Banco Central do Brasil (BACEN) para reduzir a quantidade de dinheiro em circulação na economia e a exposição das instituições financeiras ao risco de crédito é
+
+A. O aumento da alíquota do imposto sobre produtos industrializados (IPI).
+B. A contenção dos gastos públicos.
+C. A compra de títulos públicos no open market.
+D. O aumento dos depósitos compulsórios.
+
+8. 8) Um investidor realiza uma aplicação num fundo de investimento e obtém rendimento nominal líquido (de impostos e demais custos e taxas) de 20% no período. Nesse mesmo intervalo de tempo, o IPCA (Índice Nacional de Preços ao Consumidor Amplo) acumulado foi de 25%. Então, esse investidor, com esta aplicação I - Obteve um ganho real no período. II - Perdeu poder de compra. As afirmações I e II são, respectivamente:
+
+A. Falsa e verdadeira.
+B. Falsa e falsa.
+C. Verdadeira e falsa.
+D. Verdadeira e verdadeira.
+
+9. 9) Para reduzir a oferta monetária e controlar a expansão da demanda agregada da economia, um dos instrumentos de política monetária a disposição do Banco Central é a:
+
+A. Compra de títulos públicos no mercado aberto.
+B. Redução da taxa do redesconto.
+C. Venda de títulos públicos no mercado aberto.
+D. Redução da taxa dos depósitos compulsórios.
+
+10. 10) As reservas internacionais são os ativos que um país mantém em moeda estrangeira. No caso do Brasil, que adota um regime de câmbio flutuante, as reservas internacionais I. São administradas pela secretaria do tesouro nacional (STN). II. Diminuem quando o país apresenta um déficit no balanço de pagamentos. III. Têm em sua composição títulos, depósitos em moedas, direitos especiais de saque junto ao fundo monetário internacional (FMI) e ouro. Está correto o que se afirma em
+
+A. l e II, apenas.
+B. II e III, apenas.
+C. I, II e III.
+D. l e III, apenas.
+
+11. 11) O Sr. e a Sra. Silva pretendem viajar para a Europa dentro de 2 anos, e estimam que vão precisar de aproximadamente R$ 70 mil, na ocasião da viagem, para poder fazer tudo o que desejam. Como se trata de um casal conservador, que já economizou R$ 60 mil para essa viagem, eles pretendem aplicar esse montante para fazê-lo render durante os próximos 2 anos. Em razão disso, procuraram a instituição financeira, onde mantêm sua conta corrente, e pediram informações sobre três produtos de investimentos, cuja publicidade eles já haviam visto. Esses produtos foram apresentados ao casal da seguinte maneira: I) a aplicação no PRODUTO X (garantida pelo FGC), por 721 dias, seria uma opção interessante, porque o capital investido lhes renderia 20% de juros nesse período (juros pré-fixados), mas, em compensação, os rendimentos auferidos sofreriam tributação pelo IR, com base na alíquota de 15%, ficando subentendido que essa aplicação seria desvantajosa pela tributação incidente. II) a aplicação no PRODUTO Y, por 721 dias, era o principal produto de investimento dessa instituição, e lhes foi apresentada como sendo a opção ideal, porque, além de o casal resgatar, ao final do período, o montante líquido total de R$ 70.200,00, esse investimento estaria garantido pelo FGC, até o montante de R$ 250 mil, ficando os recursos aplicados, portanto, protegidos contra eventuais problemas que a instituição pudesse vir a ter. Com isso, dava-se a entender que essa aplicação seria a mais vantajosa para o casal, pela segurança oferecida. III) a aplicação no PRODUTO Z, (garantida pelo FGC), por 721 dias, ainda que fosse uma boa opção, pois era uma aplicação isenta de IR sobre os rendimentos auferidos, tinha a desvantagem de oferecer rendimentos de apenas 17% nesse período (juros pré-fixados), ficando subentendido que essa aplicação também seria desvantajosa, pelo baixo rendimento oferecido. Considerando as informações acima e considerando que as únicas diferenças entre os três produtos são aquelas apresentadas nos itens I, II e III
+
+A. Dar ênfase maior a um dos produtos, acabou fazendo uso do framing, pois não foi demonstrada qualquer vantagem real desse produto sobre os demais produtos oferecidos, a ponto de justificar sua escolha pelo casal.
+B. Oferecer o produto x, deveria ter ressaltado para o casal que, em razão das possíveis oscilações na taxa de câmbio do dólar, no prazo de 2 anos, a melhor aplicação seria esta, em razão da alta taxa de juros oferecidas - 20% para o período.
+C. Considerar o produto y como sendo o mais adequado ao casal, agiu corretamente, pois esse produto proporcionava um rendimento líquido de R$ 10.200,00, além de a quantia investida ficar protegida contra qualquer revés que o banco pudesse vir a ter no período da aplicação.
+D. Oferecer o produto z, deveria ter mostrado para o casal que, embora a taxa de juros oferecida para esse produto não fosse tão boa quanto a oferecida pelo produto x, a isenção do ir acabaria por tornar esta opção a mais vantajosa para os dois.
+
+12. 12) Quanto mais alto for o PU (preço unitário) de um título de renda fixa zero-cupom
+
+A. Maior será o rating do emissor.
+B. Menor será o rendimento até seu resgate final.
+C. Maior será o risco de crédito do emissor.
+D. Menor será a quantidade de parcelas de amortização.
+
+13. 13) Um cliente foi até a agência bancária para esclarecer dúvidas sobre uma nova aplicação em depósitos de Poupança. Seu gerente afirmou-lhe que I. a remuneração é composta pela Taxa Referencial (TR) + remuneração adicional de 0,5% a.m., enquanto a meta da taxa Selic for superior a 8,50% a.a. II. a remuneração é composta pela Taxa Referencial (TR) + remuneração adicional de 70% da meta da taxa Selic ao ano, mensalizada, vigente na data de início do período de rendimento, enquanto a meta da taxa Selic for igual ou inferior a 8,50% a.a. III. a poupança não possui garantia do Fundo Garantidor de Crédito (FGC). Está correto o que se afirma em
+
+A. l e II, apenas.
+B. I, apenas.
+C. I, II e III.
+D. II e III, apenas.
+
+14. 14) Nas debêntures com garantias reais:
+
+A. Os bens e direitos garantidos pela empresa na emissão não podem ser comprometidos, portanto só podem ser negociados com aprovação dos debenturistas.
+B. Os bens e direitos garantidos pela empresa na emissão podem ser negociados sem autorização prévia dos debenturistas.
+C. Não existem garantia ou preferência ao investidor em caso de liquidação da companhia.
+D. Se houver liquidação da companhia, há preferência de pagamento aos debenturistas em relação aos acionistas.
+
+15. 15) Na escritura de emissão de uma debênture conversível deve constar que
+
+A. Em determinados períodos, seus rendimentos podem mudar de prefixados para pós-fixados.
+B. Os debenturistas têm direito de voto na assembleia geral da companhia emissora.
+C. Os debenturistas poderão trocar seus títulos por ações da companhia emissora.
+D. Será assegurada a participação dos debenturistas nos lucros futuros da companhia emissora.
+
+16. 16) Ao recomendar um título de renda fixa Tesouro IPCA+2024 (NTN-B Principal), um especialista de investimento deverá explicar ao seu cliente que I. ao manter o título até seu vencimento, a rentabilidade obtida será formada pela variação do IPCA e, também, pela taxa de juro do momento da aquisição. II. variações na Taxa Selic terão influência direta na rentabilidade, uma vez que o retorno é dado pela variação do IPCA mais a Taxa Selic. III. em um ambiente econômico de alta inflacionária a rentabilidade real do investidor é mantida. Está correto o que se afirma em
+
+A. I, II e III.
+B. II, apenas.
+C. I, apenas.
+D. I e III, apenas.
+
+17. 17) Os BDRs - Brazilian Depositary Receipts são certificados de depósito de valores mobiliários
+
+A. Com direito de conversão em ADRS - American Depositary Receipts.
+B. De uma companhia aberta com sede no brasil, negociados nos estados unidos.
+C. De uma companhia aberta com sede no exterior, negociados na B3.
+D. Transacionados no brasil, em dólares e no mercado de balcão.
+
+18. 18) Uma recente distribuição pública de ações diferenciou-se das demais por ter sido destinada exclusivamente a "Investidores Qualificados". Nessa categoria, encontram-se: I. Os investidores vinculados à instituição líder, às demais instituições participantes da oferta e à empresa emissora. II. Fundos de Pensão e Seguradoras. III. Pessoas físicas e jurídicas com investimentos financeiros superiores a R$ 1.000.000,00 e que atestem, por escrito, a sua condição. Está correto o que se afirma APENAS em
+
+A. I e III.
+B. I e II.
+C. II.
+D. II e III.
+
+19. 19) Um investidor pessoa física vendeu ações em Bolsa de Valores, conforme demonstrado no quadro abaixo:
+
+
+De acordo com a legislação do imposto sobre a renda vigente, os ganhos líquidos auferidos nessas alienações estão isentos do imposto nos meses de
+
+
+A. Dezembro de 2014 e janeiro de 2015.
+B. Novembro e dezembro de 2014.
+C. Janeiro e fevereiro de 2015.
+D. Novembro e dezembro de 2014 e fevereiro de 2015.
+
+20. 20) A participação nos lucros da companhia é um direito do qual o acionista
+
+A. Pode ser privado por deliberação da assembleia geral.
+B. Não pode ser privado pelo estatuto social nem pela assembleia geral.
+C. Não pode ser privado, exceto por decisão da comissão de valores mobiliários.
+D. Pode ser privado pelo estatuto social.
+
+21. 21) Entre as modalidades que caracterizam o abuso de poder por parte do acionista controlador se inclui: I. a subscrição de ações com bens estranhos ao objeto social da companhia. Il. contratar, direta ou indiretamente, com a companhia, segundo interesses pessoais. III. O exercício de cargo de administrador ou fiscal com os deveres e responsabilidades próprios do cargo. Estão corretas as alternativas:
+
+A. I e II
+B. II
+C. III
+D. I
+
+22. 22) O Imposto de Renda sobre o ganho de capital, auferido por pessoa física, em operações realizadas em bolsa de valores, no mercado de ações vista, excluindo as operações de day trade, se devido, será apurado por períodos
+
+A. Semestrais e pago até o último dia útil do mês subsequente ao semestre da apuração.
+B. Trimestrais e pago até o último dia útil do mês subsequente ao trimestre da apuração.
+C. Mensais e pago até o último dia útil do mês subsequente ao da apuração.
+D. Anuais e pago até o último dia útil do mês da entrega da declaração de ajuste anual.
+
+23. 23) Ao estruturar uma empresa de gestão de recursos, um gestor fez as seguintes afirmações: I. Tanto a análise técnica quanto a análise fundamentalista fazem parte de processos de seleção de ações bottom-up. II. A análise fundamentalista tem foco no curtíssimo prazo. III. A análise técnica acredita que futuras alterações nos preços dos ativos podem ser detectadas pela observação de séries históricas. Está correto o que se afirma em
+
+A. I, II e III.
+B. I e II, apenas.
+C. l e III, apenas.
+D. II e III, apenas.
+
+24. 24) Um dos parâmetros considerados na avaliação da liquidez de uma ação negociada em Bolsa é
+
+A. A média da quantidade de negócios diários.
+B. A variação do preço de fechamento de um dia para o preço de abertura do dia seguinte.
+C. O valor médio dos dividendos pagos em relação ao seu preço.
+D. A diferença entre o seu preço máximo e o seu preço diário.
+
+25. 25) Uma instituição financeira acaba de emitir um COE (Certificado de Operações Estruturadas), produzindo o DIE (Documento de Informações Essenciais), que especifica as características do produto e o Termo de Adesão e Ciência de Risco (TA) dessa emissão. No momento da distribuição aos investidores não profissionais, a instituição deve
+
+A. Opcionalmente entregar o die e obrigatoriamente colher a assinatura no TA.
+B. Obrigatoriamente entregar o die e colher a assinatura no TA.
+C. Obrigatoriamente entregar o die e opcionalmente colher a assinatura no TA.
+D. Opcionalmente entregar o die e colher a assinatura no TA.
+
+26. 26) No mercado de derivativos, uma Opção é
+
+A. Um instrumento financeiro que confere ao seu titular o direito de comprar ou vender um ativo-objeto a um preço pré-determinado.
+B. Uma operação que permite a duas contrapartes trocarem seus fluxos financeiros, em uma data futura, conforme critérios pré-estabelecidos.
+C. Uma operação financeira onde a diferença entre o preço contratado de um ativo é o preço futuro descontado a uma taxa de juros
+D. Uma operação de compra e venda de um ativo realizada no mesmo pregão, para o mesmo cliente, pela mesma sociedade corretora.
+
+27. 27) Um investidor toma a decisão de zerar as posições de derivativos que possuía em sua carteira, influenciado por notícias de perdas significativas ocasionadas por esse instrumento. Entretanto, observa que o VaR das carteiras aumentou significativamente. Esse efeito, provavelmente, ocorreu devido
+
+A. À redução do risco de mercado causado pela eliminação dos derivativos.
+B. À diminuição da duration de macaulay da carteira.
+C. Ao resultado fiscal gerado pela eliminação dos derivativos.
+D. À variação dos preços dos ativos que estavam sendo protegidos (hedgeados) pelos derivativos.
+
+28. 28) Em um Fundo de Investimento em Direitos Creditórios (FIDC) I- As cotas subordinadas possuem maiores riscos, caso os créditos não sejam performados. II - São exigidos ratings (classificação de risco de agências de risco de mercado) apenas para as cotas sêniores. III - As cotas sêniores possuem prioridade para fins de pagamento de amortização e resgates. Está correto o que se afirma em:
+
+A. I, apenas.
+B. I e III, apenas.
+C. I, apenas.
+D. II e III, apenas.
+
+29. 29) Um possível investidor informa que era cotista de uma classe de um fundo referenciado ao IGP-M e que em um mês de significativas altas do índice e da taxa de juros, sua aplicação incorreu em rentabilidade negativa. Um profissional CPA-20 deve informá-lo de que esse tipo de evento
+
+A. Não pode ocorrer, pois os fundos atrelados a índices de preço têm de refletir a totalidade da variação desses índices.
+B. Pode ocorrer, pois nem sempre os fundos conseguem refletir o movimento do mercado com a mesma rapidez em que os índices são divulgados.
+C. Não pode ocorrer, pois os fundos são marcados a mercado.
+D. Pode ocorrer, pois os títulos atrelados a índices de preço também sofrem o impacto das taxas de juros.
+
+30. 30) A compensação de imposto de renda em aplicações em fundos de investimento pode ser I - Feita pelo investidor, mesmo que ainda não tenha vendido suas cotas com prejuízo. II - Feita apenas entre fundos de mesmo tratamento tributário. III - Declarada no IRPF (Imposto de Renda Pessoa Física), deduzindo a base de cálculo do imposto a ser pago, na declaração de ajuste anual. Está correto o que se afirma em:
+
+A. II, apenas.
+B. I e III, apenas.
+C. I, apenas.
+D. II e III, apenas.
+
+31. 31) De acordo com a regulamentação vigente, os Fundos de índice I. Não podem operar alavancados. II. Devem ser constituídos sob a forma de condomínio aberto. III. Podem ter suas cotas utilizadas para empréstimos e garantias. Pode-se afirmar que I, II e III, respectivamente, estão:
+
+A. Correta, correta, correta.
+B. Incorreta, incorreta, correta.
+C. Correta, correta, incorreta.
+D. Incorreta, correta, correta.
+
+32. 32) Nas aplicações em fundos de investimento realizadas por conta e ordem de clientes:
+
+A. O administrador do fundo deve escriturar, no registro de cotistas, as cotas subscritas em nome dos respectivos cotistas, com base nas informações fornecidas pelo distribuidor.
+B. Caso o contrato firmado entre o administrador e o distribuidor seja rescindido, as cotas desses clientes devem ser resgatadas, seguindo as regras do regulamento do fundo.
+C. O administrador do fundo é o responsável por realizar os procedimentos de controle e manutenção de informações desses cotistas, visando a proteção e combate à lavagem de dinheiro ou ocultação de bens, direitos e valores.
+D. O distribuidor é o responsável por efetuar a retenção e o recolhimento dos tributos incidentes nos resgates das cotas dos seus Clientes que subscreverem cotas desse fundo.
+
+33. 33) Segundo o Código ANBIMA de Distribuição de Produtos de Investimento, as instituições participantes devem disponibilizar informações dos Fundos de Investimento constituídos sob a forma de
+
+A. Condomínio fechado, cuja distribuição de cotas independe de prévio registro na comissão de valores mobiliários (CVM).
+B. Condomínio aberto, cuja distribuição de cotas independe de prévio registro na comissão de valores mobiliários (CVM).
+C. Fundo reservado, destinado a um grupo determinado de investidores que tenham entre si vínculo familiar, societário ou que pertençam a um mesmo grupo econômico.
+D. Fundo exclusivo, destinado exclusivamente a um único investidor profissional, conforme classificação da comissão de valores mobiliários (CVM).
+
+34. 34) Para um investidor pessoa física domiciliado e residente no Brasil,
+
+A. A aplicação de recursos em um fundo de renda fixa de longo prazo e subsequente resgate em 270 dias corridos geram imposto de renda à alíquota de 17,50% sobre os rendimentos.
+B. As perdas apuradas no fundo de ações podem ser utilizadas para a redução do imposto de renda devido sobre futuros ganhos em fundo de renda fixa do mesmo administrador.
+C. O fundo de ações estão sujeitos ao imposto sobre operações de crédito, câmbio e seguros ou relativas a títulos e valores mobiliários (IOF) decrescente, de acordo com o prazo de aplicação.
+D. Os ganhos no fundo multimercado de curto prazo são tributados à alíquota mínima de 20,00% sobre os rendimentos gerados entre a aplicação e o resgate.
+
+35. 35) Um investidor que acredita em uma queda da taxa de juros maior que a do consenso de mercado, deve aplicar seus recursos em um fundo de investimento cuja carteira seja composta principalmente por
+
+A. Títulos pós-fixados indexados ao DI e títulos prefixados.
+B. Títulos prefixados e títulos pós-fixados indexados à taxa SELIC.
+C. Títulos pós-fixados indexados à taxa SELIC.
+D. Títulos prefixados.
+
+36. 36) Um Fundo de Índice negociado em bolsa de valores
+
+A. Não pode realizar operações de empréstimos de ações.
+B. Deve manter 100% dos seus ativos aplicados nas ações que compõem o índice de referência.
+C. Não pode contratar seu gestor como formador de mercado.
+D. Deve ser constituído sob a forma de condomínio fechado.
+
+37. 37) Um investidor ao adquirir um Fundo de Ações, que investe em empresas Small Caps, deverá ser informado de que os principais fatores de risco dessa carteira são os de
+
+A. Mercado e liquidez.
+B. Liquidez e crédito.
+C. Mercado e operacional.
+D. Crédito e mercado.
+
+38. 38) Em relação as diferentes modalidades dos fundos de investimento, os fundos
+
+A. De renda fixa não podem adquirir ativos no exterior.
+B. Fechados são aqueles em que os cotistas podem resgatar suas cotas a qualquer momento.
+C. Exclusivos são voltados para um segmento de mercado, como empresas do segmento de energia elétrica.
+D. De ações podem comprar cotas de outros fundos.
+
+39. 39) A carteira de um fundo de investimentos em renda fixa possui duration de Macaulay de 175 dias. O gestor deseja utilizar os novos recursos aplicados no fundo de modo a diminuir a sua exposição às variações nas taxas de juros prefixadas. Para alcançar tal objetivo, o gestor deve comprar Letras do Tesouro Nacional (LTN) com prazo:
+
+A. Exatamente igual a 175 dias.
+B. Inferior a 175 dias.
+C. Superior a 175 e inferior a 360 dias.
+D. Superior a 360 dias.
+
+40. 40) Um profissional de uma instituição financeira está se preparando para ofertar um plano de Previdência Complementar a um cliente. Para avaliar qual é a recomendação de regime tributário ideal, precisará analisar
+
+A. A tábua atuarial e tempo de permanência no plano.
+B. A renda tributável do participante e tempo de permanência no plano.
+C. O excedente financeiro e renda tributável do participante.
+D. A tábua atuarial e excedente financeiro.
+
+41. 41) Rendas - Aluguel: R$ 60.000,00/ano Despesas - Previdência Social: R$ 0,00 - Plano de Saúde: R$ 6.600,00/ano - Alimentação: R$ 4.800,00/ ano - Remédios e Vestuário: R$ 3.600,00/ ano Com relação à utilização do PGBL - Plano Gerador de Benefício Livre, para obtenção de benefícios fiscais, é correto afirmar que
+
+A. Pode-se utilizar pois a contribuição ao PGBL aumentaria suas despesas dedutíveis proporcionando benefício fiscal.
+B. Pode-se utilizar desde que utilize o modelo completo de declaração de ajuste anual de imposto de renda.
+C. Não se pode utilizar pois sua renda bruta não possibilita a declaração pelo modelo completo de imposto de renda.
+D. Não se pode utilizar uma vez que não possui vínculo, ou seja, não é contribuinte e nem beneficiário da previdência social.
+
+42. 42) Os planos de previdência complementar do tipo PGBL (Plano Gerador de Benefício Livre) e VGBL (Vida Gerador de Benefício Livre), I - Possibilitam a portabilidade entre os planos, durante o período de contribuição. II - Possuem benefícios fiscais (diferimento de impostos sobre as contribuições) aos seus investidores, em determinadas situações. III - Permitem a escolha de duas opções de tributação, pela tabela regressiva ou progressiva para cálculo do imposto de renda, na contratação dos planos ou no resgate. Está correto o que se afirma em:
+
+A. I, apenas.
+B. II e III, apenas.
+C. I e II, apenas.
+D. III, apenas.
+
+43. 43) Um cliente contratou um plano de previdência complementar do tipo Plano Gerador de Benefício Livre (PGBL), com regime de tributação definitivo (tabela regressiva). Aos 70 anos de idade, 15 anos após a sua última contribuição, ele possui um saldo acumulado de R$ 500.000,00, sendo R$ 300.000,00 referente ao valor nominal das contribuições e R$ 200.000,00 aos rendimentos. Se ele resgatar a totalidade dos recursos, durante o período de diferimento, e optar por manter o mesmo regime de tributação, pagará imposto de renda de
+
+A. 15,00% sobre R$ 200.000,00.
+B. 10,00% sobre R$ 500.000,00.
+C. 15,00% sobre R$ 500.000,00.
+D. 10,00% sobre R$ 200.000,00.
+
+44. 44) Pelo princípio da dominância entre carteiras, é correto afirmar que um investidor racional escolherá, entre duas carteiras de investimentos com
+
+A. Retornos esperados iguais, aquela com maior risco.
+B. Riscos iguais, aquela com maior retorno esperado.
+C. Retornos esperados diferentes, aquela com maior tracking error.
+D. Riscos diferentes, aquela com menor retorno esperado.
+
+45. 45) Emiliano procurou Mario, seu amigo e consultor de valores mobiliários, e lhe disse que queria fazer o mesmo tipo de "aplicação de risco" que seu primo fez, porque esse primo "se deu bem". Antes de realizar a aplicação solicitada, Mario apurou que as informações relativas ao perfil de Emiliano estavam desatualizadas e que ele, algumas vezes, revelava forte intolerância a perdas financeiras, ainda que temporárias. Mario tentou dissuadir Emiliano de fazer essa aplicação, mas Emiliano, mesmo sem nunca ter feito uma aplicação como essa, ordenou que ela fosse feita. Diante de tais circunstâncias, Mario deverá
+
+A. Se recusar a atender à determinação dada por Emiliano, mas deverá informá-lo de que a referida operação poderá ser feita, sem qualquer tipo de restrição, por meio de aplicativo (app) próprio da instituição financeira, ou por meio de site na internet.
+B. Se recusar a atender à determinação dada por Emiliano, mas deverá informá-lo de que a referida operação poderá ser feita, sem qualquer tipo de restrição, por meio de aplicativo (app) próprio da instituição financeira, apenas, e mediante o uso de token.
+C. Alertar Emiliano acerca da desatualização e da inadequação do seu perfil, indicando as causas da divergência, mas alertando que essas exigências podem ser legalmente contornadas se a aplicação for feita por meio de aplicativo (app) da instituição financeira.
+D. Alertar Emiliano, antes da primeira operação com a categoria de valor mobiliário, acerca da desatualização e da inadequação do seu perfil, indicando as causas da divergência e obtendo declaração expressa de Emiliano de que está ciente desses fatos.
+
+46. 46) A relação entre os retornos de dois ativos pode ser mensurada utilizando-se
+
+A. O desvio padrão.
+B. A correlação.
+C. A média.
+D. A variância.
+
+47. 47) De acordo com a moderna Teoria de Finanças, os títulos de crédito com maior risco de inadimplência devem oferecer retornos
+
+A. Menores, comparados ao ativo livre de risco.
+B. Maiores e proporcionais ao risco de crédito dos emissores.
+C. Menores e proporcionais ao risco de crédito dos emissores.
+D. Equivalentes, comparados ao ativo livre de risco de mesmo prazo.
+
+48. 48) Rodrigo, funcionário de banco múltiplo, foi procurado por pessoas que desejavam utilizar os serviços dessa instituição financeira. Françoise, domiciliada em Paris e desobrigada de inscrição no CPF pela Secretaria da Receita Federal do Brasil, desejava fazer pequenos investimentos em CDB, com a finalidade de utilizar esses recursos nas visitas anuais que faz ao país; ela, porém, só tinha consigo seu passaporte e mais nenhum outro documento. Gerson, com dívidas vencidas e não pagas junto a diversos estabelecimentos comerciais de São Paulo, e com nome inscrito em conhecido cadastro de inadimplentes, desejava fazer empréstimo para liquidar essas dívidas, com as vantagens do programa "Inadimplência Já Era", instituído pelo governo federal. Ingrid, ex-chefe de governo de país escandinavo, que havia deixado essa função três anos antes, expressou seu desejo de tornar-se cliente do referido banco e de utilizar seus serviços, principalmente no mercado financeiro brasileiro; ela, porém, não tinha a intenção de transferir seu domicílio para o Brasil. Demétrio compareceu à referida instituição financeira com um cheque no valor de R$ 51 mil, querendo fazer o saque da referida importância; como o banco dispunha desse numerário, solicitaram-se dele várias informações, inclusive seu nome, número de inscrição no CPF e a finalidade do saque, mas Demétrio considerou isso uma invasão ao seu direito de sigilo e negou-se a fornecer esses dados, queixando-se, verbalmente, a Rodrigo a respeito dessas exigências. Relativamente aos procedimentos destinados a conhecer o cliente, objeto de disciplina na Circular Bacen n° 3.978, de 23 de janeiro de 2020,
+
+A. Como Françoise é estrangeira, residente e domiciliada no exterior, e desobrigada de inscrição no CFP, na forma definida pela, Secretaria da receita federal do brasil, não poderão ser feitos os investimentos por ela pretendidos, naquela instituição financeira.
+B. Como um dos requisitos para o registro das operações em espécie, inclusive daquelas realizadas por meio de cheque, de valor individual igual ou superior a R$ 50 mil, é que seja informada a finalidade do saque a ser feito, o não fornecimento dessa informação autoriza a instituição financeira a não realizar essa operação.
+C. Esse banco múltiplo estará dispensado de realizar os procedimentos de qualificação e de classificação de Gerson, caso os recursos a serem liberados na referida operação devam ser transferidos diretamente aos credores da dívida renegociada, sem qualquer interferência de Gerson.
+D. Embora Ingrid seja pessoa estrangeira, com domicílio no exterior e sem intenção de transferi-lo para o brasil, o banco não deve implementar procedimentos que permitam qualificar seus clientes como pessoa exposta politicamente, porque ela deixou essa função três anos antes.
+
+49. 49) De acordo com o Código ANBIMA de Distribuição de Produtos de Investimento, no processo de coleta de informações para uma adequada avaliação do perfil de um investidor deve-se considerar I. A experiência do investidor em matéria de investimentos. II. Os riscos associados ao produto ofertado. III. O cenário econômico. Está correto o que se afirma em
+
+A. I e III, apenas.
+B. I, apenas.
+C. II, apenas.
+D. I, Il e III
+
+50. 50) As empresas ALFA, BETA e GAMA estão empenhadas em promover, desenvolver e manter as boas práticas empresariais de gestão, visando uma maior sustentabilidade e responsabilidade social (ASG). Para alcançar esse objetivo, a empresa ALFA adotou algumas medidas que já tinham sido adotadas em sua matriz, localizada no exterior, tais como (1) adquirir e utilizar apenas veículos movidos a eletricidade; 2) desenvolver processos de produção que reduzam o consumo de água; e (3) vincular a remuneração dos executivos aos interesses da empresa e à otimização dos resultados em matéria ASG. A empresa BETA contratou uma consultoria para auxiliá-la a melhorar em vários aspectos. As primeiras medidas recomendadas pelos consultores, e aceitas pela empresa, foram (1) promover ações tendentes a formar um corpo de colaboradores que se caracteres pela diversidade de aspectos culturais, sociais, econômicos e de gênero; (2) estabelecer uma a política permanente de inclusão das minorias; e (3) reestruturar os instrumentos de comunicação dentro da empresa, visando aumentar a divulgação de indicadores de desempenho ASG. A empresa GAMA formou uma comissão para cuidar especificamente de assuntos relacionados com o ASG. As primeiras providências tomadas por essa equipe foram (1) adquirir, instalar e começar a usar, imediatamente, placas para captação e uso de energia solar; e (2) no relacionamento externo da empresa, proporcionar um atendimento mais humanizado e menos impessoal aos seus clientes. Com base nas medidas adotadas por cada uma das três empresas e tendo em vista os distintos aspectos das boas práticas empresariais de gestão, visando uma maior sustentabilidade e responsabilidade social (ASG), identifica-se que
+
+A. A empresa beta adotou medidas nas áreas ambiental e de governança, enquanto a empresa gama adotou medidas nas áreas social e de governança.
+B. A empresa alfa adotou medidas nas áreas ambiental e de governança, enquanto a empresa gama adotou medidas nas áreas social e ambiental.
+C. Todas as três empresas adotaram medidas na área ambiental, além de terem adotado medidas em outras áreas.
+D. A empresa alfa adotou medidas nas áreas ambiental e social, enquanto a empresa beta adotou medidas nas áreas ambiental e de governança.
+
+51. 51) Luiza foi aconselhada pelo seu gestor de investimento a adquirir ações de uma determinada empresa, pois os analistas atribuíam uma possibilidade de grande retorno no longo prazo. Passados 15 dias da compra, decidiu vendê-las com 2,00% de retorno. Nesse caso, ela exibiu o viés da heurística
+
+A. Da ancoragem.
+B. Da disponibilidade.
+C. Da aversão à perda.
+D. Do excesso de confiança.
+
+52. 52) A responsabilidade pela suficiência, veracidade, precisão, consistência e atualidade dos documentos de uma oferta pública de distribuição de valores mobiliários é
+
+A. das instituições participantes.
+B. do ofertante em conjunto com todas as instituições participantes.
+C. do coordenador líder.
+D. do ofertante.
+
+53. 53) Dos ativos abaixo, pode-se considerar como ativa livre de risco:
+
+A. LFT.
+B. FIDCs.
+C. CDB indexado à taxa Selic.
+D. ações.
+
+54. 54) É um exemplo da prática de insider trading quando um operador
+
+A. utiliza informações divulgadas em fatos relevantes em benefício próprio.
+B. compra ações para sua carteira pessoal, ao identificar no sistema da bolsa significativas ordens de compra dessas ações.
+C. divulga informações sobre seus clientes para terceiros, buscando vantagens e ganhos pessoais.
+D. utiliza informações privilegiadas em benefício próprio ou para beneficiar as carteiras de clientes que administra.
+
+55. 55) Se os valores esperados do fluxo de caixa de determinado projeto possuem uma distribuição normal,
+
+A. A média e o desvio padrão são iguais
+B. Aproximadamente 95% dos valores encontram-se no intervalo (média – 1 desvio padrão; média + 1 desvio padrão).
+C. Aproximadamente 95% dos valores encontram-se no intervalo (média - 2 desvio padrão; média + 2 desvio padrão).
+D. A média é igual a 2 desvios-padrão.
+
+56. 56) Um investidor pretende fazer um investimento em um Fundo de Renda Fixa que seja composto por títulos com baixo risco de crédito e de mercado. Ele não possui outros investimentos no mercado de capitais; não preencheu o questionário de Análise do Perfil do Investidor (API) nem a declaração de ausência desse perfil. Segundo a CVM, ele poderá aplicar, exclusivamente, no Fundo
+
+A. Renda Fixa Referenciado DI.
+B. Renda Fixa Simples.
+C. Renda Fixa Pós-fixado.
+D. Renda Fixa Soberano.
+
+57. 57) Segundo a Teoria de Finanças Comportamentais, a estratégia adotada pelos investidores ao tomarem o primeiro preço de compra de uma ação como referência e, a partir desse preço estimar o desempenho futuro dessa ação, é uma consequência da aplicação da heurística denominada
+
+A. ancoragem.
+B. representatividade.
+C. aversão ao risco.
+D. disponibilidade.
+
+58. 58) Um investidor efetuará uma aplicação financeira a uma taxa de juros de 7,50%, para o período de 12 meses. A inflação projetada para esse mesmo período é de 4,50%. Nesse caso, a taxa de juros real projetada é
+
+A. exatamente igual a 7,50%.
+B. exatamente igual a 3,00%.
+C. um pouco inferior a 3,00%.
+D. um pouco superior a 3,00%.
+
+59. 59) O aumento da duration de Macaulay de uma carteira de investimentos tem como consequência direta
+
+A. a diminuição da relação entre o seu desvio padrão e sua variância.
+B. a diminuição da variação do valor da carteira em relação ao seu benchmark.
+C. o aumento da sua sensibilidade à mudanças nas taxas de juros.
+D. o aumento da relação entre o seu rating e seu risco de crédito.
+
+60. 60) Um investidor residente e domiciliado no Brasil pretende iniciar seu planejamento de aposentadoria. Para indicar a modalidade adequada dos planos de previdência complementar dos Plano Gerador de Benefício Livre (PGBL) ou Vida Gerador de Benefício Livre (VGBL), um especialista de investimento deve questionar-lhe o
+
+A. modelo atual da Declaração do Imposto de Renda (IR) e o vinculo com o Instituto Nacional do Seguro Social (INSS).
+B. valor da renda e o modelo atual da Declaração do Imposto de Renda da Pessoa Física (IRPF).
+C. tipo de renda e o modelo atual da Declaração do Imposto de Renda da Pessoa Física (IRPF).
+D. tipo de renda e as contribuições ao Regime Geral de Previdência Social (RGPS).
