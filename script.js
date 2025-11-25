@@ -7,6 +7,20 @@ const SIMULADOS = [
   { id: '6', nome: 'Simulado 6', simuladoPath: '6 - corrigido/SIMULADO 6.txt', gabaritoPath: '6 - corrigido/GABARITO 6.txt' },
   { id: '7', nome: 'Simulado 7', simuladoPath: '7 - corrigido/SIMULADO 7.txt', gabaritoPath: '7 - corrigido/GABARITO 7.txt' },
   { id: '8', nome: 'Simulado 8', simuladoPath: '8 - corrigido/SIMULAO 8.txt', gabaritoPath: '8 - corrigido/GABARITO 8.txt' },
+  {
+    id: 'romanos',
+    nome: 'Estilo Romanos',
+    aggregate: true,
+    questionFilter: {
+      1: [12, 14, 19, 28, 47, 57],
+      2: [5, 6, 7, 8, 26, 27, 33, 42, 58],
+      3: [3, 4, 6, 7, 9, 16, 17, 19, 28, 41, 45, 46, 47, 49],
+      4: [3, 5, 7, 14, 15, 17, 19, 28, 38, 44, 46],
+      5: [2, 3, 4, 11, 23, 29, 31, 38, 40, 43, 44, 45, 47],
+      6: [3, 4, 5, 10, 15, 17, 38, 44],
+      7: [5, 10, 12, 14, 21, 28, 32, 44, 45, 46]
+    }
+  },
   { id: 'all', nome: 'Todas as provas', aggregate: true }
 ];
 
@@ -140,7 +154,7 @@ function parseQuestions(text, answers) {
   return parsed;
 }
 
-async function buildAggregateAllQuestions() {
+async function buildAggregateAllQuestions(filterMap = null) {
   const aggregated = [];
 
   for (const simulado of BASE_SIMULADOS) {
@@ -150,7 +164,9 @@ async function buildAggregateAllQuestions() {
     ]);
 
     const answers = parseAnswerKey(gabText);
+    const allowedNumbers = filterMap?.get(simulado.id);
     const parsed = parseQuestions(simText, answers)
+      .filter((q) => !allowedNumbers || allowedNumbers.includes(q.number))
       .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }));
 
     aggregated.push(...parsed);
@@ -242,7 +258,11 @@ async function startSimulado() {
 
     try {
       if (simulado.aggregate) {
-        questions = shuffleAndRenumber(await buildAggregateAllQuestions());
+        const filterMap = simulado.questionFilter
+          ? new Map(Object.entries(simulado.questionFilter).map(([key, value]) => [String(key), value]))
+          : null;
+
+        questions = shuffleAndRenumber(await buildAggregateAllQuestions(filterMap));
 
         if (questions.length === 0) {
           throw new Error('Nenhuma questão encontrada em todos os simulados.');
