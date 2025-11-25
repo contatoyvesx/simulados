@@ -59,6 +59,10 @@ function shuffleAndRenumber(list) {
   return shuffled.map((q, idx) => ({ ...q, number: idx + 1 }));
 }
 
+function renumberInOrder(list) {
+  return list.map((q, idx) => ({ ...q, number: idx + 1 }));
+}
+
 function populateSelect() {
   SIMULADOS.forEach((item) => {
     const option = document.createElement('option');
@@ -262,7 +266,10 @@ async function startSimulado() {
           ? new Map(Object.entries(simulado.questionFilter).map(([key, value]) => [String(key), value]))
           : null;
 
-        questions = shuffleAndRenumber(await buildAggregateAllQuestions(filterMap));
+        const aggregated = await buildAggregateAllQuestions(filterMap);
+        questions = simulado.id === 'all'
+          ? shuffleAndRenumber(aggregated)
+          : renumberInOrder(aggregated);
 
         if (questions.length === 0) {
           throw new Error('Nenhuma questão encontrada em todos os simulados.');
@@ -276,7 +283,7 @@ async function startSimulado() {
         ]);
 
         const answers = parseAnswerKey(gabText);
-        questions = shuffleAndRenumber(
+        questions = renumberInOrder(
           parseQuestions(simText, answers)
             .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
         );
