@@ -259,6 +259,81 @@ button:hover:not(:disabled) {
   color: var(--danger);
 }
 
+.tab-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  width: auto;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.tab.active {
+  background: linear-gradient(120deg, var(--accent), var(--accent-strong));
+  color: #0b1220;
+  border-color: transparent;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-section {
+  margin-top: 12px;
+}
+
+.tab-controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: end;
+}
+
+.empty-state {
+  padding: 14px;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+}
+
+.answer-list {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+  max-height: 60vh;
+  overflow: auto;
+  padding-right: 6px;
+}
+
+.answer-list.inline {
+  max-height: none;
+  padding-right: 0;
+}
+
+.answer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0c1424;
+}
+
+.answer-row strong {
+  color: var(--accent);
+}
+
 @media (max-width: 720px) {
   .top-bar {
     flex-direction: column;
@@ -268,5 +343,9 @@ button:hover:not(:disabled) {
 
   .actions {
     flex-direction: column;
+  }
+
+  .tab-controls {
+    grid-template-columns: 1fr;
   }
 }

@@ -32,32 +32,55 @@
       <div class="status" id="loadStatus">Nenhum simulado carregado</div>
     </section>
 
-    <section class="panel" id="questionPanel" hidden>
-      <div class="panel-header">
-        <div>
-          <p class="eyebrow" id="progressLabel"></p>
-          <h2 id="questionTitle"></h2>
+    <section class="panel" id="workspacePanel">
+      <div class="tab-bar" role="tablist">
+        <button class="tab active" data-tab="tabQuestions" role="tab" aria-selected="true">Responder</button>
+        <button class="tab" data-tab="tabAnswerKey" role="tab" aria-selected="false">Gabarito</button>
+      </div>
+
+      <div id="tabQuestions" class="tab-content active" role="tabpanel">
+        <div class="empty-state" id="questionEmptyState">Inicie um simulado para ver as questões aqui.</div>
+
+        <section class="tab-section" id="questionPanel" hidden>
+          <div class="panel-header">
+            <div>
+              <p class="eyebrow" id="progressLabel"></p>
+              <h2 id="questionTitle"></h2>
+            </div>
+            <div class="score" id="scoreBoard"></div>
+          </div>
+
+          <div class="question-body">
+            <div id="questionText" class="question-text"></div>
+            <form id="optionsContainer" class="options"></form>
+            <div id="feedback" class="feedback" role="status"></div>
+          </div>
+
+          <div class="actions">
+            <button id="checkButton" class="secondary">Conferir resposta</button>
+            <button id="nextButton" class="primary" disabled>Próxima questão</button>
+          </div>
+        </section>
+
+        <section class="tab-section" id="summaryPanel" hidden>
+          <h2>Resumo do simulado</h2>
+          <p id="summaryText"></p>
+          <div id="summaryList" class="summary-list"></div>
+          <button id="restartButton" class="secondary">Voltar para seleção</button>
+        </section>
+      </div>
+
+      <div id="tabAnswerKey" class="tab-content" role="tabpanel" hidden>
+        <div class="tab-controls">
+          <label class="control">
+            <span>Selecione o simulado para consultar o gabarito</span>
+            <select id="answerSimuladoSelect"></select>
+          </label>
+          <button id="loadAnswerKeyButton" class="secondary">Mostrar gabarito</button>
         </div>
-        <div class="score" id="scoreBoard"></div>
+        <div class="status" id="answerKeyStatus">Escolha um simulado para visualizar o gabarito.</div>
+        <div id="answerKeyList" class="answer-list inline"></div>
       </div>
-
-      <div class="question-body">
-        <div id="questionText" class="question-text"></div>
-        <form id="optionsContainer" class="options"></form>
-        <div id="feedback" class="feedback" role="status"></div>
-      </div>
-
-      <div class="actions">
-        <button id="checkButton" class="secondary">Conferir resposta</button>
-        <button id="nextButton" class="primary" disabled>Próxima questão</button>
-      </div>
-    </section>
-
-    <section class="panel" id="summaryPanel" hidden>
-      <h2>Resumo do simulado</h2>
-      <p id="summaryText"></p>
-      <div id="summaryList" class="summary-list"></div>
-      <button id="restartButton" class="secondary">Voltar para seleção</button>
     </section>
   </main>
 

@@ -29,6 +29,8 @@ const BASE_SIMULADOS = SIMULADOS.filter((item) => !item.aggregate);
 const select = document.getElementById('simuladoSelect');
 const startButton = document.getElementById('startButton');
 const loadStatus = document.getElementById('loadStatus');
+const tabButtons = Array.from(document.querySelectorAll('.tab-bar .tab'));
+const tabContents = Array.from(document.querySelectorAll('.tab-content'));
 const questionPanel = document.getElementById('questionPanel');
 const questionText = document.getElementById('questionText');
 const optionsContainer = document.getElementById('optionsContainer');
@@ -43,6 +45,11 @@ const summaryPanel = document.getElementById('summaryPanel');
 const summaryText = document.getElementById('summaryText');
 const summaryList = document.getElementById('summaryList');
 const restartButton = document.getElementById('restartButton');
+const questionEmptyState = document.getElementById('questionEmptyState');
+const answerSimuladoSelect = document.getElementById('answerSimuladoSelect');
+const loadAnswerKeyButton = document.getElementById('loadAnswerKeyButton');
+const answerKeyStatus = document.getElementById('answerKeyStatus');
+const answerKeyList = document.getElementById('answerKeyList');
 let currentSimulado = null;
 let questions = [];
 let currentIndex = 0;
@@ -63,16 +70,31 @@ function renumberInOrder(list) {
   return list.map((q, idx) => ({ ...q, number: idx + 1 }));
 }
 
-function populateSelect() {
+function populateSelect(element) {
   SIMULADOS.forEach((item) => {
     const option = document.createElement('option');
     option.value = item.id;
     option.textContent = item.nome;
-    select.appendChild(option);
+    element.appendChild(option);
   });
 }
 
-populateSelect();
+populateSelect(select);
+populateSelect(answerSimuladoSelect);
+
+function activateTab(tabId) {
+  tabButtons.forEach((btn) => {
+    const isActive = btn.dataset.tab === tabId;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-selected', isActive);
+  });
+
+  tabContents.forEach((content) => {
+    const isActive = content.id === tabId;
+    content.classList.toggle('active', isActive);
+    content.hidden = !isActive;
+  });
+}
 
 async function loadFile(path) {
   const response = await fetch(path);
@@ -179,6 +201,46 @@ async function buildAggregateAllQuestions(filterMap = null) {
   return aggregated;
 }
 
+async function loadQuestionsForSimulado(simulado, { shuffleAll = false } = {}) {
+  if (!simulado) {
+    throw new Error('Selecione um simulado válido.');
+  }
+
+  if (simulado.aggregate) {
+    const filterMap = simulado.questionFilter
+      ? new Map(Object.entries(simulado.questionFilter).map(([key, value]) => [String(key), value]))
+      : null;
+
+    const aggregated = await buildAggregateAllQuestions(filterMap);
+    if (aggregated.length === 0) {
+      throw new Error('Nenhuma questão encontrada em todos os simulados.');
+    }
+
+    const ordered = simulado.id === 'all' && shuffleAll
+      ? shuffleAndRenumber(aggregated)
+      : renumberInOrder(aggregated);
+
+    return { list: ordered, nome: simulado.nome };
+  }
+
+  const [simText, gabText] = await Promise.all([
+    loadFile(simulado.simuladoPath),
+    loadFile(simulado.gabaritoPath)
+  ]);
+
+  const answers = parseAnswerKey(gabText);
+  const parsed = renumberInOrder(
+    parseQuestions(simText, answers)
+      .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
+  );
+
+  if (parsed.length === 0) {
+    throw new Error('Nenhuma questão encontrada.');
+  }
+
+  return { list: parsed, nome: simulado.nome };
+}
+
 function renderQuestion(index) {
   const q = questions[index];
   const sourceLabel = q.source ? ` — ${q.source}` : '';
@@ -241,6 +303,32 @@ function showSummary() {
   sessionInfo.textContent = 'Simulado concluído';
 }
 
+function renderAnswerKey(list, target) {
+  if (!list.length) return;
+
+  target.innerHTML = '';
+
+  list.forEach((q) => {
+    const row = document.createElement('div');
+    row.className = 'answer-row';
+
+    const originalLabel = q.originalNumber && q.originalNumber !== q.number
+      ? ` (original ${q.originalNumber})`
+      : '';
+    const sourceLabel = q.source ? ` — ${q.source}` : '';
+
+    const title = document.createElement('span');
+    title.textContent = `Questão ${q.number}${originalLabel}${sourceLabel}`;
+
+    const answer = document.createElement('strong');
+    answer.textContent = q.correct || '?';
+
+    row.appendChild(title);
+    row.appendChild(answer);
+    target.appendChild(row);
+  });
+}
+
 function guardBeforeNext() {
   if (!answered.has(questions[currentIndex].number)) {
     feedback.textContent = 'Confira a resposta antes de seguir adiante.';
@@ -259,54 +347,28 @@ async function startSimulado() {
   questionPanel.hidden = true;
   summaryPanel.hidden = true;
   sessionInfo.textContent = 'Preparando questões';
+  questionEmptyState.hidden = true;
+  activateTab('tabQuestions');
 
-    try {
-      if (simulado.aggregate) {
-        const filterMap = simulado.questionFilter
-          ? new Map(Object.entries(simulado.questionFilter).map(([key, value]) => [String(key), value]))
-          : null;
+  try {
+    const { list, nome } = await loadQuestionsForSimulado(simulado, { shuffleAll: true });
+    questions = list;
+    currentSimulado = { nome };
+    answerSimuladoSelect.value = selectedId;
 
-        const aggregated = await buildAggregateAllQuestions(filterMap);
-        questions = simulado.id === 'all'
-          ? shuffleAndRenumber(aggregated)
-          : renumberInOrder(aggregated);
-
-        if (questions.length === 0) {
-          throw new Error('Nenhuma questão encontrada em todos os simulados.');
-        }
-
-        currentSimulado = { nome: simulado.nome };
-      } else {
-        const [simText, gabText] = await Promise.all([
-          loadFile(simulado.simuladoPath),
-          loadFile(simulado.gabaritoPath)
-        ]);
-
-        const answers = parseAnswerKey(gabText);
-        questions = renumberInOrder(
-          parseQuestions(simText, answers)
-            .map((q) => ({ ...q, source: simulado.nome, originalNumber: q.number }))
-        );
-
-        if (questions.length === 0) {
-          throw new Error('Nenhuma questão encontrada.');
-        }
-
-        currentSimulado = simulado;
-      }
-
-      currentIndex = 0;
-      answered = new Map();
-      renderQuestion(currentIndex);
-      questionPanel.hidden = false;
-      summaryPanel.hidden = false;
-      summaryPanel.hidden = true;
-      sessionInfo.textContent = `${simulado.nome} carregado`;
-      loadStatus.textContent = `${questions.length} questões prontas para responder.`;
-    } catch (error) {
-      console.error(error);
-      loadStatus.textContent = error.message;
-    }
+    currentIndex = 0;
+    answered = new Map();
+    renderQuestion(currentIndex);
+    questionPanel.hidden = false;
+    summaryPanel.hidden = false;
+    summaryPanel.hidden = true;
+    sessionInfo.textContent = `${simulado.nome} carregado`;
+    loadStatus.textContent = `${questions.length} questões prontas para responder.`;
+  } catch (error) {
+    console.error(error);
+    loadStatus.textContent = error.message;
+    questionEmptyState.hidden = false;
+  }
 }
 
 function checkCurrent() {
@@ -359,4 +421,25 @@ restartButton.addEventListener('click', () => {
   summaryPanel.hidden = true;
   sessionInfo.textContent = 'Escolha um simulado para começar';
   loadStatus.textContent = 'Nenhum simulado carregado';
+  questionEmptyState.hidden = false;
 });
+tabButtons.forEach((btn) => {
+  btn.addEventListener('click', () => activateTab(btn.dataset.tab));
+});
+
+async function loadAnswerKeyTab() {
+  const selectedId = answerSimuladoSelect.value;
+  const simulado = SIMULADOS.find((item) => item.id === selectedId);
+  answerKeyStatus.textContent = 'Carregando gabarito...';
+  answerKeyList.innerHTML = '';
+
+  try {
+    const { list, nome } = await loadQuestionsForSimulado(simulado, { shuffleAll: false });
+    answerKeyStatus.textContent = `${nome} — ${list.length} questões`;
+    renderAnswerKey(list, answerKeyList);
+  } catch (error) {
+    answerKeyStatus.textContent = error.message;
+  }
+}
+
+loadAnswerKeyButton.addEventListener('click', loadAnswerKeyTab);
