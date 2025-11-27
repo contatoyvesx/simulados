@@ -84,6 +84,21 @@
     </section>
   </main>
 
+  <div id="answerKeyModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-answer-key></div>
+    <div class="modal-content" role="dialog" aria-labelledby="answerKeyTitle" aria-modal="true">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Consulta rápida</p>
+          <h3 id="answerKeyTitle">Gabarito do simulado</h3>
+        </div>
+        <button id="closeAnswerKey" class="icon-button" aria-label="Fechar gabarito">✕</button>
+      </div>
+      <p id="answerKeySubtitle" class="muted"></p>
+      <div id="answerKeyList" class="answer-list"></div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
