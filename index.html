@@ -49,6 +49,7 @@
 
       <div class="actions">
         <button id="checkButton" class="secondary">Conferir resposta</button>
+        <button id="answerKeyButton" class="secondary" disabled>Consultar gabarito</button>
         <button id="nextButton" class="primary" disabled>Próxima questão</button>
       </div>
     </section>
@@ -60,6 +61,21 @@
       <button id="restartButton" class="secondary">Voltar para seleção</button>
     </section>
   </main>
+
+  <div id="answerKeyModal" class="modal" hidden>
+    <div class="modal-backdrop" data-close-answer-key></div>
+    <div class="modal-content" role="dialog" aria-labelledby="answerKeyTitle" aria-modal="true">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">Consulta rápida</p>
+          <h3 id="answerKeyTitle">Gabarito do simulado</h3>
+        </div>
+        <button id="closeAnswerKey" class="icon-button" aria-label="Fechar gabarito">✕</button>
+      </div>
+      <p id="answerKeySubtitle" class="muted"></p>
+      <div id="answerKeyList" class="answer-list"></div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
