@@ -194,6 +194,10 @@ async function buildAggregateAllQuestions(filterMap = null) {
   const aggregated = [];
 
   for (const simulado of BASE_SIMULADOS) {
+    if (filterMap && !filterMap.has(simulado.id)) {
+      continue;
+    }
+
     const [simText, gabText] = await Promise.all([
       loadFile(simulado.simuladoPath),
       loadFile(simulado.gabaritoPath)
