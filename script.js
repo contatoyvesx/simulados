@@ -21,6 +21,16 @@ const SIMULADOS = [
       7: [5, 10, 12, 14, 21, 28, 32, 44, 45, 46]
     }
   },
+  {
+    id: 'dificeis',
+    nome: 'Difíceis',
+    aggregate: true,
+    shuffle: true,
+    questionFilter: {
+      7: [21, 45, 46, 49, 55, 58, 60],
+      8: [23, 25, 28, 30, 41, 46, 47, 48, 50]
+    }
+  },
   { id: 'all', nome: 'Todas as provas', aggregate: true }
 ];
 
@@ -184,6 +194,10 @@ async function buildAggregateAllQuestions(filterMap = null) {
   const aggregated = [];
 
   for (const simulado of BASE_SIMULADOS) {
+    if (filterMap && !filterMap.has(simulado.id)) {
+      continue;
+    }
+
     const [simText, gabText] = await Promise.all([
       loadFile(simulado.simuladoPath),
       loadFile(simulado.gabaritoPath)
@@ -216,9 +230,8 @@ async function loadQuestionsForSimulado(simulado, { shuffleAll = false } = {}) {
       throw new Error('Nenhuma questão encontrada em todos os simulados.');
     }
 
-    const ordered = simulado.id === 'all' && shuffleAll
-      ? shuffleAndRenumber(aggregated)
-      : renumberInOrder(aggregated);
+    const shouldShuffle = (simulado.id === 'all' && shuffleAll) || simulado.shuffle;
+    const ordered = shouldShuffle ? shuffleAndRenumber(aggregated) : renumberInOrder(aggregated);
 
     return { list: ordered, nome: simulado.nome };
   }
